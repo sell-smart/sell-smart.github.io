@@ -1,0 +1,93 @@
+---
+title: "Pricing FAQ"
+subtitle: "Quick answers to common question on pricing."
+page-layout: full
+toc: false
+format: html
+css: assets/css/expandable_bullets.css
+---
+  
+::: {.callout collapse="true"}
+## How do I know if I’m charging too much or too little?
+Look at both sales volume and contribution margin. A high margin with collapsing sales is as bad as high sales with no profit.
+:::
+
+::: {.callout collapse="true"}
+## Can I test different prices without losing customers?
+Yes — with careful structuring (e.g. segmented promotions, A/B tests, or gradual rollouts). Even if you can’t run a formal test, you can analyze historical data.
+:::
+
+::: {.callout collapse="true"}
+## What if my products don’t sell regularly?
+Use methods that account for sparse sales data, like hierarchical or Bayesian demand models, so you can still estimate price sensitivity.
+:::
+
+::: {.callout collapse="true"}
+## Should I price at the variant or product level?
+Usually at the variant level if variants differ significantly in perceived value — but keep prices coherent across a product line to avoid confusing customers.
+:::
+
+::: {.callout collapse="true"}
+## How do I figure out the right price if I don’t have much sales history?
+Start by looking at competitor prices and positioning — they tell you what customers expect. Then, track your own early sales closely. Even a handful of transactions can reveal whether customers are very sensitive to changes. For sparse data, Bayesian models or hierarchical approaches help you “borrow strength” across similar products.
+:::
+
+::: {.callout collapse="true"}
+## Why do my sales jump when I discount — but profits don’t really improve?
+Discounts often boost volume but erode margin. To see if they’re really working, measure the contribution margin (price minus variable costs) instead of just revenue. If the margin per unit shrinks faster than the volume grows, you’re losing money.
+:::
+
+::: {.callout collapse="true"}
+## Should I price each product variant separately, or keep them all the same?
+If variants differ in quality, materials, or appeal, pricing them separately usually pays off. But don’t confuse customers: keep differences logical (e.g. +10 € for premium materials). When in doubt, start simple and test adjustments gradually.
+:::
+
+::: {.callout collapse="true"}
+## What’s the best way to track competitor prices without spending hours on it?
+You can start manually with a short list of key competitors. For more products, automated scraping tools or specialized services can keep prices up‑to‑date. Even a simple weekly check can prevent you from drifting too far off market.
+:::
+
+::: {.callout collapse="true"}
+## How do I know if raising prices will scare customers away?
+Look at how sales changed after past price moves. If you’ve never tested, start with small, targeted increases and monitor closely. You’ll often find that loyal customers care less about small price changes than you think — especially if the product solves a real problem.
+:::
+
+::: {.callout collapse="true"}
+## When is price testing acceptable?
+Price testing works best if you have:
+
+Non‑recurring customers (so buyers don’t compare your old and new prices directly).
+
+Large enough sales volume to detect meaningful changes within a few weeks.
+
+Comparable product variants or regions where you can safely test different prices.
+In these cases, structured A/B tests or gradual rollouts give you reliable signals.
+:::
+
+::: {.callout collapse="true"}
+## What if I can’t test because most customers come back regularly?
+For recurring customers, visible price swings can hurt trust. Instead of direct A/B testing:
+
+Test different discount magnitudes (e.g. 10% vs 15%) for specific campaigns.
+
+Offer time‑limited promotions that don’t reset the “normal” price in your customers’ minds.
+
+Use natural experiments (like competitor moves or supply changes) to learn indirectly.
+:::
+
+
+::: {.callout collapse="true"}
+## What if my sales volumes are too small for testing?
+If you don’t have enough volume for formal tests:
+
+Lean on competitor prices to anchor your range.
+
+Use Bayesian or hierarchical models to “borrow” insights from similar products.
+
+Track even sparse data carefully: a few sales can still indicate if a product is highly price‑sensitive.
+
+Consider bundling or upsells to get better signals without needing huge volume.
+:::
+
+
+

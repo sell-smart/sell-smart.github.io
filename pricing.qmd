@@ -1,0 +1,57 @@
+---
+title: "Profitable Pricing"
+subtitle: "A Practical Guide to Pricing."
+page-layout: full
+toc: false
+format: html
+css: assets/css/expandable_bullets.css
+---
+  
+::: {.callout collapse="true"}
+## Why Pricing Matters More Than You Think
+A 5% change in price often shifts profit more than a 20% change in sales volume.  
+Yet most Shopify stores spend more time tweaking ad campaigns than reviewing their prices.  
+Pricing isn’t about guessing what “feels right” — it’s about finding the balance between what customers are willing to pay and what keeps your margins healthy.
+:::
+  
+::: {.callout collapse="true"}
+## Common Pricing Mistakes
+- **Copying competitors blindly**  
+  Just because another store charges $29.99 doesn’t mean you should. They may have different costs, suppliers, or customer bases.  
+- **Equating more sales with more profit**  
+  High volume can still mean thin margins — or even losses if discounts are too deep.  
+- **Ignoring recurring customers**  
+  Regular buyers notice price swings more than one‑time shoppers. Trust lost here is hard to rebuild.  
+- **Skipping measurement**  
+  If you don’t track how price changes affect both sales and margin, you’re just guessing.
+:::
+  
+::: {.callout collapse="true"}
+## When Price Testing Works
+Price testing makes sense if:
+  - Most of your customers are one‑time buyers  
+  - You have enough volume that differences show up quickly  
+  - You can split products or regions without confusing customers  
+
+In these cases, A/B tests or phased rollouts give you reliable signals.
+:::
+  
+::: {.callout collapse="true"}
+## When You Can’t Test Directly
+Testing is risky when:
+  - Customers buy repeatedly (they may feel cheated by price differences)  
+  - Sales numbers are too small to detect meaningful effects  
+
+**Alternatives:**
+  - Use controlled discounts to measure impact  
+  - Look for natural experiments (competitor price moves, seasonal demand shifts)  
+  - Monitor stockouts and promotions to see how sales respond  
+:::
+  
+::: {.callout collapse="true"}
+## What If You Have Very Little Data?
+- Benchmark against competitor prices  
+- Use hierarchical or Bayesian models to borrow strength from similar products  
+- Track every transaction carefully  
+- Consider bundling products to generate more observations  
+:::

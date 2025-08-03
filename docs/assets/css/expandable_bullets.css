@@ -1,0 +1,46 @@
+/* Neutralize default callout look */
+  .callout {
+    background: #f9f9f9;
+      border: 1px solid #ddd;
+    border-left: 4px solid #0077b5; /* accent bar */
+    border-radius: 6px;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+    margin: 1em 0;
+    padding: 0.5em 1em;
+  }
+
+/* Remove the blue "note" background */
+  .callout-note,
+.callout-tip,
+.callout-warning {
+  background: inherit;
+}
+
+/* Remove default icons */
+  .callout-icon {
+    display: none !important;
+  }
+
+/* Style the header line */
+  .callout-header {
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1.1rem;
+    position: relative;
+    padding-left: 1.5em;
+  }
+
+/* Add disclosure triangle */
+  .callout-header::before {
+    content: "▶";
+    position: absolute;
+    left: 0;
+    top: 0.1em;
+    font-size: 0.9em;
+    color: #666;
+      transition: transform 0.2s;
+  }
+
+.callout.open .callout-header::before {
+  content: "▼";
+}
