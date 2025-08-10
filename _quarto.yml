@@ -47,9 +47,9 @@ website:
       - text: Services
         aria-label: "Services"
         href: services.qmd
-      - text: Case Studies
-        aria-label: "Case Studies"
-        href: case_studies/index.qmd
+      #- text: Case Studies
+      #  aria-label: "Case Studies"
+      #  href: case_studies/index.qmd
       - text: Profitable Pricing
         aria-label: "Profitable Pricing"
         href: pricing.qmd
