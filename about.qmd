@@ -18,9 +18,9 @@ about:
     - icon: linkedin
       aria-label: "LinkedIn"
       href: https://www.linkedin.com/in/pavel-logacev
-    - icon: github
-      aria-label: GitHub
-      href: https://github.com/plogacev
+    #- icon: github
+    #  aria-label: GitHub
+    #  href: https://github.com/plogacev
     # - icon: mastodon
     #   href: https://hachyderm.io/@spcanelon
     #- text: "{{< ai orcid >}}"
@@ -163,6 +163,7 @@ Much of my work is done through agencies — but I operate as a partner, not a h
 
 <!-- end grid -->
 
+<!--
 ## Lately ...
 
 :::: {.grid}
@@ -196,3 +197,4 @@ Much of my work is done through agencies — but I operate as a partner, not a h
 :::
 
 ::::
+-->

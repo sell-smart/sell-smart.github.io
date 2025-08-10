@@ -1,9 +1,0 @@
----
-title: "Profitable Pricing"
-subtitle: "A Practical Guide to Pricing."
-page-layout: full
-toc: false
-format: html
-css: assets/css/expandable_bullets.css
----
-  

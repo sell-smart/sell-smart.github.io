@@ -1,0 +1,60 @@
+---
+title: "Pricing at Scale in QSR"
+subtitle: "Case Study"
+author: Pavel Logačev
+categories: [pricing, demand modeling, Bayesian, retail, QSR]
+format: revealjs
+---
+
+
+## Project Overview
+A quick-service restaurant (QSR) group operating in France sought to improve pricing at scale.
+
+- Goal: Lift contribution margin without eroding demand
+- Scope: Core menu, add-ons, bundles
+- Constraints: No experiments; historical POS only; heavy bundling; interpretability required
+
+---
+
+## Challenges
+- Sparse/zero sales for long-tail SKUs
+- Combos mask item-level demand
+- Region/site heterogeneity
+- Promotions confound base price effects
+
+---
+
+## Solution Approach
+- Estimate **local log–log demand curves** per item × site
+- **Hierarchical pooling** across items/sites to stabilize sparse estimates
+- **Seasonality + latent trend** decomposition to separate timing effects
+- **Uncertainty quantification** for all elasticities and projections
+
+---
+
+## Architecture (light)
+- Data: POS, product hierarchy, promo flags, costs
+- Models: Hierarchical demand with partial pooling; seasonal/weekly components
+- Delivery: Price scenarios, margin/volume trade-offs, governance for overrides
+
+---
+
+## Results
+- Identified under/over-priced items by region
+- Produced **scenario playbooks** with expected margin impact ranges
+- Enabled price updates without risky A/B tests
+
+---
+
+## Business Value
+- Higher pricing confidence at scale
+- Faster iteration; decisions grounded in uncertainty-aware estimates
+- Transparent logic; no black box
+
+---
+
+## Key Takeaways
+- Pooling cures sparsity; combos need explicit treatment
+- Seasonality and trend must be modeled to avoid bias
+- Ranges, not points, drive better pricing decisions
+

@@ -69,11 +69,5 @@ Share your pricing challenge — I'll show you a path forward.
 </form>
 :::
 
-
-<!-- Row 2 -->
-::: {.g-col-6}
-
 :::
-
-::: {.g-col-6}
 
