@@ -7,6 +7,13 @@
     "text": "Pavel Logačev, PhD\nTurning Complex Data into Profitable Decisions\n\nI help businesses set smarter prices and take smart decisions grounded in data — even when data is sparse, messy, or fragmented.\n\nIncrease revenue through optimized pricing\n\nGain reliable forecasts despite limited data\n\nMake confident decisions without relying on black‑box tools\n\n\n\n\nSee What’s Possible\nShare your pricing challenge — I’ll show you a path forward.\n\n \n\n\nSend Message\n\n\n\n\n\n\n\n Back to top"
   },
   {
+    "objectID": "case_studies/index.html",
+    "href": "case_studies/index.html",
+    "title": "Case Studies",
+    "section": "",
+    "text": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs\n\n\n\nPricing\n\nB2B\n\nForecasting\n\n\n\n\n\n\n\n\n\n\n\nRegional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing\n\n\n\nPricing\n\nRetail\n\nElasticity\n\n\n\n\n\n\nNo matching items\n Back to top"
+  },
+  {
     "objectID": "pricing.html",
     "href": "pricing.html",
     "title": "Profitable Pricing",
@@ -63,10 +70,73 @@
     "text": "How do I know if I’m charging too much or too little?\n\n\n\n\n\nLook at both sales volume and contribution margin. A high margin with collapsing sales is as bad as high sales with no profit.\n\n\n\n\n\n\n\n\n\nCan I test different prices without losing customers?\n\n\n\n\n\nYes — with careful structuring (e.g. segmented promotions, A/B tests, or gradual rollouts). Even if you can’t run a formal test, you can analyze historical data.\n\n\n\n\n\n\n\n\n\nWhat if my products don’t sell regularly?\n\n\n\n\n\nUse methods that account for sparse sales data, like hierarchical or Bayesian demand models, so you can still estimate price sensitivity.\n\n\n\n\n\n\n\n\n\nShould I price at the variant or product level?\n\n\n\n\n\nUsually at the variant level if variants differ significantly in perceived value — but keep prices coherent across a product line to avoid confusing customers.\n\n\n\n\n\n\n\n\n\nHow do I figure out the right price if I don’t have much sales history?\n\n\n\n\n\nStart by looking at competitor prices and positioning — they tell you what customers expect. Then, track your own early sales closely. Even a handful of transactions can reveal whether customers are very sensitive to changes. For sparse data, Bayesian models or hierarchical approaches help you “borrow strength” across similar products.\n\n\n\n\n\n\n\n\n\nWhy do my sales jump when I discount — but profits don’t really improve?\n\n\n\n\n\nDiscounts often boost volume but erode margin. To see if they’re really working, measure the contribution margin (price minus variable costs) instead of just revenue. If the margin per unit shrinks faster than the volume grows, you’re losing money.\n\n\n\n\n\n\n\n\n\nShould I price each product variant separately, or keep them all the same?\n\n\n\n\n\nIf variants differ in quality, materials, or appeal, pricing them separately usually pays off. But don’t confuse customers: keep differences logical (e.g. +10 € for premium materials). When in doubt, start simple and test adjustments gradually.\n\n\n\n\n\n\n\n\n\nWhat’s the best way to track competitor prices without spending hours on it?\n\n\n\n\n\nYou can start manually with a short list of key competitors. For more products, automated scraping tools or specialized services can keep prices up‑to‑date. Even a simple weekly check can prevent you from drifting too far off market.\n\n\n\n\n\n\n\n\n\nHow do I know if raising prices will scare customers away?\n\n\n\n\n\nLook at how sales changed after past price moves. If you’ve never tested, start with small, targeted increases and monitor closely. You’ll often find that loyal customers care less about small price changes than you think — especially if the product solves a real problem.\n\n\n\n\n\n\n\n\n\nWhen is price testing acceptable?\n\n\n\n\n\nPrice testing works best if you have:\nNon‑recurring customers (so buyers don’t compare your old and new prices directly).\nLarge enough sales volume to detect meaningful changes within a few weeks.\nComparable product variants or regions where you can safely test different prices. In these cases, structured A/B tests or gradual rollouts give you reliable signals.\n\n\n\n\n\n\n\n\n\nWhat if I can’t test because most customers come back regularly?\n\n\n\n\n\nFor recurring customers, visible price swings can hurt trust. Instead of direct A/B testing:\nTest different discount magnitudes (e.g. 10% vs 15%) for specific campaigns.\nOffer time‑limited promotions that don’t reset the “normal” price in your customers’ minds.\nUse natural experiments (like competitor moves or supply changes) to learn indirectly.\n\n\n\n\n\n\n\n\n\nWhat if my sales volumes are too small for testing?\n\n\n\n\n\nIf you don’t have enough volume for formal tests:\nLean on competitor prices to anchor your range.\nUse Bayesian or hierarchical models to “borrow” insights from similar products.\nTrack even sparse data carefully: a few sales can still indicate if a product is highly price‑sensitive.\nConsider bundling or upsells to get better signals without needing huge volume.\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "case_studies/index.html",
-    "href": "case_studies/index.html",
-    "title": "Case Studies",
+    "objectID": "case_studies/grocery-retailer/index.html",
+    "href": "case_studies/grocery-retailer/index.html",
+    "title": "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing",
     "section": "",
-    "text": "No matching items\n Back to top"
+    "text": "A mid-sized grocery retailer operating 200+ stores across three countries was using uniform pricing across all locations. Management suspected they were leaving money on the table — underpricing in affluent urban areas while losing volume to discounters in price-sensitive regions — but had no systematic way to quantify the opportunity or act on it.\nPrevious attempts at regional pricing had been based on gut feel and competitor spot-checks, resulting in inconsistent execution and skepticism from store managers."
+  },
+  {
+    "objectID": "case_studies/grocery-retailer/index.html#the-challenge",
+    "href": "case_studies/grocery-retailer/index.html#the-challenge",
+    "title": "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing",
+    "section": "",
+    "text": "A mid-sized grocery retailer operating 200+ stores across three countries was using uniform pricing across all locations. Management suspected they were leaving money on the table — underpricing in affluent urban areas while losing volume to discounters in price-sensitive regions — but had no systematic way to quantify the opportunity or act on it.\nPrevious attempts at regional pricing had been based on gut feel and competitor spot-checks, resulting in inconsistent execution and skepticism from store managers."
+  },
+  {
+    "objectID": "case_studies/grocery-retailer/index.html#the-approach",
+    "href": "case_studies/grocery-retailer/index.html#the-approach",
+    "title": "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing",
+    "section": "The Approach",
+    "text": "The Approach\nI built a zone-based pricing model using 18 months of transaction data across all stores and ~4,000 SKUs. The approach combined:\n\nStore clustering: Grouped locations into 5 pricing zones based on local competition density, average basket size, and demographic indicators — not just geography\nCategory-level elasticity estimation: Separated “known value items” (high price sensitivity, traffic drivers) from margin categories where customers are less price-aware\nGuardrails: Set maximum price differentials between zones to avoid customer backlash and operational complexity\nPhased rollout: Started with 3 test zones and 200 SKUs before expanding, allowing the team to build confidence in the model"
+  },
+  {
+    "objectID": "case_studies/grocery-retailer/index.html#the-outcome",
+    "href": "case_studies/grocery-retailer/index.html#the-outcome",
+    "title": "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing",
+    "section": "The Outcome",
+    "text": "The Outcome\nSix months after full rollout:\n\n12% margin improvement on optimized categories (approximately €2.1M annually)\nFlat volume — elasticity-based guardrails prevented customer defection\nReduced competitor reactivity — targeted pricing on KVIs maintained price image without broad margin erosion\nOperational adoption — pricing team now runs the model quarterly with minimal support"
+  },
+  {
+    "objectID": "case_studies/grocery-retailer/index.html#key-insight",
+    "href": "case_studies/grocery-retailer/index.html#key-insight",
+    "title": "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing",
+    "section": "Key Insight",
+    "text": "Key Insight\n\nMost retailers think “regional pricing” means charging more in rich areas. The real opportunity is surgical: raise prices on items customers don’t compare, stay sharp on the items they do. The zone structure matters less than understanding which products drive price perception."
+  },
+  {
+    "objectID": "case_studies/b2b-distributor/index.html",
+    "href": "case_studies/b2b-distributor/index.html",
+    "title": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs",
+    "section": "",
+    "text": "A technical components distributor selling to manufacturers and repair shops had grown to 8,000+ SKUs through acquisition. Pricing was a patchwork: some products used cost-plus, others matched competitors, many hadn’t been reviewed in years. The sales team had broad discounting authority, leading to margin erosion on high-volume accounts.\nLeadership wanted to professionalize pricing but faced two constraints: sparse transaction data on the long tail (60% of SKUs sold fewer than 50 units/year) and a sales culture resistant to “black box” pricing."
+  },
+  {
+    "objectID": "case_studies/b2b-distributor/index.html#the-challenge",
+    "href": "case_studies/b2b-distributor/index.html#the-challenge",
+    "title": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs",
+    "section": "",
+    "text": "A technical components distributor selling to manufacturers and repair shops had grown to 8,000+ SKUs through acquisition. Pricing was a patchwork: some products used cost-plus, others matched competitors, many hadn’t been reviewed in years. The sales team had broad discounting authority, leading to margin erosion on high-volume accounts.\nLeadership wanted to professionalize pricing but faced two constraints: sparse transaction data on the long tail (60% of SKUs sold fewer than 50 units/year) and a sales culture resistant to “black box” pricing."
+  },
+  {
+    "objectID": "case_studies/b2b-distributor/index.html#the-approach",
+    "href": "case_studies/b2b-distributor/index.html#the-approach",
+    "title": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs",
+    "section": "The Approach",
+    "text": "The Approach\nI developed a hierarchical pricing model that worked despite data sparsity:\n\nProduct hierarchy leverage: Estimated elasticity at the category and subcategory level, then shrunk individual SKU estimates toward these priors — allowing even low-volume items to get sensible prices\nCustomer segmentation: Identified price-sensitive transactional buyers vs. relationship accounts, enabling differentiated pricing without universal discounting\nWillingness-to-pay signals: Incorporated quote-to-order conversion rates and discount request frequency as proxies for price sensitivity\nTransparent recommendations: Every price change came with a confidence interval and plain-language explanation — “similar products show X% volume sensitivity” — to build sales team buy-in"
+  },
+  {
+    "objectID": "case_studies/b2b-distributor/index.html#the-outcome",
+    "href": "case_studies/b2b-distributor/index.html#the-outcome",
+    "title": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs",
+    "section": "The Outcome",
+    "text": "The Outcome\nAfter 12 months:\n\n8% average margin improvement across the catalog\n15% reduction in ad-hoc discounting — sales team used model outputs as negotiation anchors\nLong-tail monetization — identified 400+ SKUs that were significantly underpriced relative to alternatives\nReduced pricing workload — automated recommendations replaced quarterly manual reviews"
+  },
+  {
+    "objectID": "case_studies/b2b-distributor/index.html#key-insight",
+    "href": "case_studies/b2b-distributor/index.html#key-insight",
+    "title": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs",
+    "section": "Key Insight",
+    "text": "Key Insight\n\nB2B pricing isn’t about finding the “right” price — it’s about giving sales teams defensible anchors. A model that explains its reasoning gets adopted. A model that just outputs numbers gets ignored or overridden."
   }
 ]

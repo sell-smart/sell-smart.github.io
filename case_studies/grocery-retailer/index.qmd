@@ -1,0 +1,37 @@
+---
+title: "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing"
+subtitle: "Price optimization for a 200+ store retailer across three European markets"
+date: 2023-09-15
+categories: [Pricing, Retail, Elasticity]
+---
+
+## The Challenge
+
+A mid-sized grocery retailer operating 200+ stores across three countries was using uniform pricing across all locations. Management suspected they were leaving money on the table — underpricing in affluent urban areas while losing volume to discounters in price-sensitive regions — but had no systematic way to quantify the opportunity or act on it.
+
+Previous attempts at regional pricing had been based on gut feel and competitor spot-checks, resulting in inconsistent execution and skepticism from store managers.
+
+
+## The Approach
+
+I built a zone-based pricing model using 18 months of transaction data across all stores and ~4,000 SKUs. The approach combined:
+
+- **Store clustering:** Grouped locations into 5 pricing zones based on local competition density, average basket size, and demographic indicators — not just geography
+- **Category-level elasticity estimation:** Separated "known value items" (high price sensitivity, traffic drivers) from margin categories where customers are less price-aware
+- **Guardrails:** Set maximum price differentials between zones to avoid customer backlash and operational complexity
+- **Phased rollout:** Started with 3 test zones and 200 SKUs before expanding, allowing the team to build confidence in the model
+
+
+## The Outcome
+
+Six months after full rollout:
+
+- **12% margin improvement** on optimized categories (approximately €2.1M annually)
+- **Flat volume** — elasticity-based guardrails prevented customer defection
+- **Reduced competitor reactivity** — targeted pricing on KVIs maintained price image without broad margin erosion
+- **Operational adoption** — pricing team now runs the model quarterly with minimal support
+
+
+## Key Insight
+
+> Most retailers think "regional pricing" means charging more in rich areas. The real opportunity is surgical: raise prices on items customers don't compare, stay sharp on the items they do. The zone structure matters less than understanding which products drive price perception.
