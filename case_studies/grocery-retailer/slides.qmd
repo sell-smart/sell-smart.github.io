@@ -10,6 +10,7 @@ format:
     center: true
     hash: true
     embedded: true
+    self-contained: true
 ---
 
 ## The Challenge
