@@ -1,0 +1,102 @@
+---
+# =============================================================================
+# CASE STUDY TEMPLATE
+# =============================================================================
+# To use: Copy this entire folder, rename it (e.g., "grocery-retailer"),
+# then fill in the sections below. Delete these instruction comments.
+#
+# Example folder names:
+#   - grocery-retailer/
+#   - b2b-industrial/
+#   - ecommerce-fashion/
+# =============================================================================
+
+title: "[Industry] — [One-line outcome]"
+# Examples:
+#   "European Grocery Chain — 8% Margin Improvement Through Dynamic Pricing"
+#   "B2B Industrial Supplier — Demand Forecasting for 2,000+ SKUs"
+#   "Fashion E-commerce — Price Elasticity Modeling Across Product Categories"
+
+subtitle: "[Brief context: company type, scale, your role]"
+# Example: "Price optimization engagement for a 300+ store retail chain"
+
+date: 2024-01-15  # Approximate date of project completion
+categories: [Pricing, Retail]
+# Pick relevant tags: Pricing, Forecasting, Revenue Optimization,
+# Retail, B2B, E-commerce, Manufacturing, SaaS, Elasticity, A/B Testing
+
+image: thumbnail.png
+# Optional: Add a chart/visualization as thumbnail.png in this folder
+# If no image, delete this line (grid will show without image)
+---
+
+## The Challenge
+
+<!-- 2-3 sentences: What problem did the client face? What was at stake? -->
+
+[Company description] needed to [business problem]. Their existing approach was [current state/pain point], resulting in [negative outcome or missed opportunity].
+
+<!-- Example:
+A European grocery retailer with 300+ stores was leaving money on the table
+with uniform national pricing. Regional differences in competition and customer
+willingness-to-pay weren't reflected in their pricing strategy, leading to
+margin erosion in some markets and lost volume in others.
+-->
+
+
+## The Approach
+
+<!-- What did you actually do? Focus on methodology, not tools. -->
+
+I developed [type of solution] that [what it does]. Key elements included:
+
+- **[Element 1]:** [Brief description]
+- **[Element 2]:** [Brief description]
+- **[Element 3]:** [Brief description]
+
+<!-- Example:
+I built a price elasticity model using historical transaction data across
+all stores and product categories. Key elements included:
+
+- **Regional segmentation:** Clustered stores by competitive intensity and
+  demographic profile to identify distinct pricing zones
+- **Category-level elasticity:** Estimated demand sensitivity separately for
+  traffic-driving categories vs. margin categories
+- **Cannibalization modeling:** Accounted for substitution effects between
+  similar products to avoid margin-destroying price wars within the assortment
+-->
+
+
+## The Outcome
+
+<!-- Quantified results. Be specific but honest about what you can claim. -->
+
+The engagement delivered:
+
+- **[Primary metric]:** [X% improvement / €X value]
+- **[Secondary metric]:** [Description]
+- **[Tertiary benefit]:** [Description]
+
+<!-- Example:
+The engagement delivered:
+
+- **8% margin improvement** on optimized categories within 6 months
+- **No volume loss** — careful elasticity-based guardrails prevented
+  customer defection
+- **Scalable framework** — the model now runs monthly, automatically
+  flagging repricing opportunities
+-->
+
+
+## Key Insight
+
+<!-- One takeaway that demonstrates your expertise. What would you tell someone facing a similar challenge? -->
+
+> [One-sentence insight that shows depth of thinking]
+
+<!-- Example:
+> Uniform pricing feels safe but often leaves significant margin on the table.
+> The key is identifying which products customers are price-sensitive on
+> (and optimizing for volume) vs. which they'll pay more for (and optimizing
+> for margin).
+-->

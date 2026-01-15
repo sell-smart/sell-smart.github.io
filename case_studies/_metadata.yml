@@ -1,0 +1,27 @@
+# Freeze computed outputs
+execute:
+  freeze: true
+
+# Enable banner style title blocks
+title-block-banner: true
+
+# Disable citation (not academic papers)
+citation: false
+
+# Table of contents
+toc: true
+toc-title: Overview
+toc-location: right
+
+# Wrap overflow code
+format:
+  html:
+    code-overflow: wrap
+    template-partials:
+      - ../_partials/title-block-link-buttons/title-block.html
+
+# Post info
+author: Pavel Logačev
+
+# Disable comments
+comments: false
