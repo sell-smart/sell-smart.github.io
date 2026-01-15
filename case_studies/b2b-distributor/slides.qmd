@@ -3,14 +3,14 @@ title: "Industrial Distributor"
 subtitle: "Demand-Based Pricing for 8,000 SKUs"
 format:
   revealjs:
-    theme: default
+    theme: simple
     navigation-mode: linear
     controls: true
     progress: true
     center: true
     hash: true
-    embedded: true
-    self-contained: true
+    embed-resources: true
+    standalone: true
 ---
 
 ## The Challenge

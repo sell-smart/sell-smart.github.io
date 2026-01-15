@@ -3,14 +3,14 @@ title: "Regional Grocery Chain"
 subtitle: "12% Margin Lift Through Zone-Based Pricing"
 format:
   revealjs:
-    theme: default
+    theme: simple
     navigation-mode: linear
     controls: true
     progress: true
     center: true
     hash: true
-    embedded: true
-    self-contained: true
+    embed-resources: true
+    standalone: true
 ---
 
 ## The Challenge
