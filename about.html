@@ -6,10 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
-<meta name="description" content="Selected pricing and revenue optimization projects. Client names anonymized; results representative of actual engagements.">
 
-<title>Case Studies – Pavel Logačev</title>
+<title>Pavel Logačev – Pavel Logačev</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -25,23 +23,24 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ac9c3f6ba11d2b682bf10d3c9e89c6e3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-ea385d0e468b0dd5ea5bf0780b1290d9.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-c5bc5a5a8a7a9ec5ad61ea146629eb53.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,7 +68,150 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
 
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-blog .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-blog'] = new List('listing-blog', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-talk .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-talk'] = new List('listing-talk', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-publication .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-publication'] = new List('listing-publication', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-project .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-subtitle','listing-image',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-project'] = new List('listing-project', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<link rel="stylesheet" href="../assets/about.css">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 </head>
 
@@ -80,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Pavel Logačev</span>
     </a>
   </div>
@@ -91,23 +233,23 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link active" href="./about.html" aria-current="page"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../services.html"> 
+    <a class="nav-link" href="./services.html"> 
 <span class="menu-text">Services</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../case_studies/index.html" aria-current="page"> 
+    <a class="nav-link" href="./case_studies/index.html"> 
 <span class="menu-text">Case Studies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../pricing.html"> 
+    <a class="nav-link" href="./pricing.html"> 
 <span class="menu-text">Profitable Pricing</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../pricing_faq.html"> 
+    <a class="nav-link" href="./pricing_faq.html"> 
 <span class="menu-text">FAQ</span></a>
   </li>  
 </ul>
@@ -121,224 +263,150 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
 <main class="content column-page" id="quarto-document-content">
 
-<!-- source: https://github.com/gadenbuie/garrickadenbuie-com/blob/main/_partials/title-block-link-buttons/title-block.html -->
-<!-- 
+
+
+
+<div class="quarto-about-trestles column-page">
+  <div class="about-entity">
+    <img src="../assets/images/pavel.png" class="about-image
+  rounded " style="width: 14em;">
 <header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title"> 
--->
-<!-- <header id="title-block-header" class="quarto-title-block default page-columns"> -->
-<!-- <div class="quarto-title page-columns page-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);"> -->
-<header id="title-block-header" class="quarto-title-block default page-columns">
-<div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
-<h1 class="title">Case Studies</h1>
+<div class="quarto-title">
+<h1 class="title">Pavel Logačev</h1>
+<p class="subtitle lead">Pricing &amp; Revenue Optimization Data Scientist</p>
 </div>
-
-<div>
-  <div id="title-block-title-desc" class="description pt-4">
-    <p>Selected pricing and revenue optimization projects.<br>Client names anonymized; results representative of actual engagements.</p>
-  </div>
-</div>
-
-
 <div class="quarto-title-meta column-page">
-
-    
-  
-    
   </div>
-  
-
-
-
 </header>
-
-
-<style>
-.case-study-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 2rem;
-  margin-top: 2rem;
-}
-
-.case-study-card {
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 1.5rem;
-  cursor: pointer;
-  transition: box-shadow 0.2s, transform 0.2s;
-  background: white;
-}
-
-.case-study-card:hover {
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
-  transform: translateY(-2px);
-}
-
-.case-study-card h3 {
-  margin-top: 0;
-  color: #0077b5;
-  font-size: 1.2rem;
-}
-
-.case-study-card .subtitle {
-  color: #666;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
-}
-
-.case-study-card .tags {
-  display: flex;
-  gap: 0.5rem;
-  flex-wrap: wrap;
-}
-
-.case-study-card .tag {
-  background: #f0f0f0;
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  font-size: 0.75rem;
-  color: #555;
-}
-
-.case-study-card .result {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eee;
-  font-weight: 600;
-  color: #2e7d32;
-}
-
-/* Modal styles */
-.slides-modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.85);
-  z-index: 9999;
-  justify-content: center;
-  align-items: center;
-}
-
-.slides-modal.active {
-  display: flex;
-}
-
-.slides-modal-content {
-  width: 90%;
-  height: 85%;
-  max-width: 1200px;
-  position: relative;
-}
-
-.slides-modal iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  border-radius: 8px;
-}
-
-.slides-modal-close {
-  position: absolute;
-  top: -40px;
-  right: 0;
-  color: white;
-  font-size: 2rem;
-  cursor: pointer;
-  background: none;
-  border: none;
-  padding: 0.5rem;
-}
-
-.slides-modal-close:hover {
-  color: #ccc;
-}
-</style>
-<div class="case-study-grid">
-<div class="case-study-card" onclick="openSlides('grocery-retailer/slides.html')">
-<h3 class="anchored">
-Regional Grocery Chain
-</h3>
-<div class="subtitle">
-Zone-based pricing for a 200+ store retailer
+    <div class="about-links">
+  <a href="https://www.linkedin.com/in/pavel-logacev" class="about-link" rel="" target="">
+    <i class="bi bi-linkedin"></i>
+     <span class="about-link-text"></span>
+  </a>
 </div>
-<div class="tags">
-<p><span class="tag">Pricing</span> <span class="tag">Retail</span> <span class="tag">Elasticity</span></p>
+  </div>
+  <div class="about-contents"><div id="hero-heading">
+<div class="h1">
+Hi, I’m Pavel Logačev
 </div>
-<div class="result">
-→ 12% margin improvement
+<p>I help businesses optimize prices and grow revenue with data. That means building models that make pricing decisions — not dashboards that sit unused.</p>
+<p>Whether you’re a retailer, a B2B supplier, or a direct-to-consumer brand, I work with you (or your agency) to identify pricing opportunities, model demand, and implement pricing logic that scales.<br>
+I don’t just hand you elasticities — I deliver working solutions.</p>
+<p><a href="./contact.html">Get in touch</a> if you’d like to work together.</p>
+</div></div>
+</div>
+
+<section id="what-i-do" class="level2">
+<h2 data-anchor-id="what-i-do">What I do</h2>
+<div class="grid">
+<div class="g-col-6">
+<p><strong>From pricing guesswork to pricing strategy.</strong></p>
+<p>I support clients with:</p>
+<ul>
+<li>Price optimization (margin or revenue focused)</li>
+<li>Willingness-to-pay modeling — even without clean sales data</li>
+<li>Demand forecasting with uncertainty estimates</li>
+<li>Stockout detection and adjustment</li>
+<li>Competitor benchmarking from scraped or third-party data</li>
+<li>A/B test design and analysis</li>
+<li>Causal inference for pricing, marketing, and product decisions</li>
+</ul>
+<p>I help you go from messy historical data to a robust pricing process.</p>
+</div>
+<div class="g-col-6">
+<p><strong>Business-first. Technically fluent.</strong></p>
+<p>I build models that are:</p>
+<ul>
+<li><strong>Custom-fit to your context</strong>, not off-the-shelf</li>
+<li>Designed for <strong>messy, real-world data</strong></li>
+<li>Delivered as ready-to-use pricing logic, files, or API endpoints</li>
+</ul>
+<p>My goal is always the same: help you charge the right price — confidently, repeatedly, and at scale.</p>
+<p>I’m based in Berlin and work with clients across Europe and North America.<br>
+I speak English, German, and Russian.</p>
 </div>
 </div>
-<div class="case-study-card" onclick="openSlides('b2b-distributor/slides.html')">
-<h3 class="anchored">
-Industrial Distributor
-</h3>
-<div class="subtitle">
-Demand-based pricing for 8,000 SKUs
-</div>
-<div class="tags">
-<p><span class="tag">Pricing</span> <span class="tag">B2B</span> <span class="tag">Forecasting</span></p>
-</div>
-<div class="result">
-→ 8% margin improvement
-</div>
-</div>
-</div>
-<!-- Modal for slides -->
-<div id="slidesModal" class="slides-modal">
-<div class="slides-modal-content">
-<button class="slides-modal-close" onclick="closeSlides()">
-×
-</button>
-<iframe id="slidesFrame" src="">
-</iframe>
-</div>
-</div>
-<script>
-function openSlides(url) {
-  document.getElementById('slidesFrame').src = url;
-  document.getElementById('slidesModal').classList.add('active');
-  document.body.style.overflow = 'hidden';
-}
+</section>
+<section id="experience" class="level2">
+<h2 data-anchor-id="experience">Experience</h2>
+<p>I’ve worked with retailers, manufacturers, and global brands on pricing problems ranging from product launches to large-scale price realignments.</p>
+<p>Past projects have included:</p>
+<ul>
+<li>Rolling out optimized prices across 300+ stores</li>
+<li>Replacing legacy price ladders with margin-based models</li>
+<li>Estimating price elasticity across thousands of SKUs</li>
+<li>Designing experiments to test pricing thresholds</li>
+</ul>
+<p>Much of my work is done through agencies — but I operate as a partner, not a hired hand.</p>
+<!-- end grid -->
+<!--
+## Lately ...
 
-function closeSlides() {
-  document.getElementById('slidesModal').classList.remove('active');
-  document.getElementById('slidesFrame').src = '';
-  document.body.style.overflow = '';
-}
+:::: {.grid}
 
-// Close on escape key
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeSlides();
-});
+::: {.g-col-3}
+#### Blog
+::: {#blog}
+:::
+[See all &rarr;](../blog){.about-links .subtitle}
+:::
 
-// Close on click outside
-document.getElementById('slidesModal').addEventListener('click', function(e) {
-  if (e.target === this) closeSlides();
-});
-</script>
+::: {.g-col-3}
+#### Talks
+::: {#talk}
+:::
+[See all &rarr;](../talk){.about-links .subtitle}
+:::
+
+::: {.g-col-3}
+#### Publications
+::: {#publication}
+:::
+[See all &rarr;](../publication){.about-links .subtitle}
+:::
+
+::: {.g-col-3}
+#### Projects
+::: {#project}
+:::
+[See all &rarr;](../project){.about-links .subtitle}
+:::
+
+::::
+-->
 
 
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+
+</section>
+
+<div class="quarto-listing quarto-listing-container-grid" id="listing-blog">
+<div class="list grid quarto-listing-cols-1">
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><div class="quarto-listing quarto-listing-container-grid" id="listing-talk">
+<div class="list grid quarto-listing-cols-1">
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><div class="quarto-listing quarto-listing-container-grid" id="listing-publication">
+<div class="list grid quarto-listing-cols-1">
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><div class="quarto-listing quarto-listing-container-grid" id="listing-project">
+<div class="list grid quarto-listing-cols-1">
+
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div><a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
-    const icon = "";
-    const anchorJS = new window.AnchorJS();
-    anchorJS.options = {
-      placement: 'right',
-      icon: icon
-    };
-    anchorJS.add('.anchored');
     const isCodeAnnotation = (el) => {
       for (const clz of el.classList) {
         if (clz.startsWith('code-annotation-')) {                     

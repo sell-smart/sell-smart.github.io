@@ -1,0 +1,59 @@
+---
+title: "Regional Grocery Chain"
+subtitle: "12% Margin Lift Through Zone-Based Pricing"
+format:
+  revealjs:
+    theme: default
+    navigation-mode: linear
+    controls: true
+    progress: true
+    center: true
+    hash: true
+    embedded: true
+---
+
+## The Challenge
+
+A **200+ store grocery retailer** across three countries was using uniform pricing everywhere.
+
+::: {.incremental}
+- Underpricing in affluent urban areas
+- Losing volume to discounters in price-sensitive regions
+- Previous attempts based on gut feel failed
+:::
+
+---
+
+## The Approach
+
+Built a **zone-based pricing model** using 18 months of transaction data across ~4,000 SKUs.
+
+::: {.incremental}
+- **Store clustering:** 5 pricing zones by competition, basket size, demographics
+- **Category elasticity:** Separated "known value items" from margin categories
+- **Guardrails:** Maximum price differentials to avoid backlash
+- **Phased rollout:** 3 test zones, 200 SKUs first
+:::
+
+---
+
+## The Outcome
+
+Six months after full rollout:
+
+| Metric | Result |
+|--------|--------|
+| Margin improvement | **+12%** |
+| Annual value | **€2.1M** |
+| Volume impact | **Flat** (no loss) |
+| Competitor reaction | **Minimal** |
+
+---
+
+## Key Insight
+
+> Most retailers think "regional pricing" means charging more in rich areas.
+
+The real opportunity is **surgical**: raise prices on items customers don't compare, stay sharp on the items they do.
+
+**The zone structure matters less than understanding which products drive price perception.**

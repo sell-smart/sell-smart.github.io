@@ -5,17 +5,171 @@ comments: false
 citation: false
 description: |
   Selected pricing and revenue optimization projects.<br>Client names anonymized; results representative of actual engagements.
-listing:
-  contents:
-    - "*/index.qmd"
-  type: grid
-  fields: [title, categories, image]
-  sort: "date desc"
-  filter-ui: false
-  image-align: left
-  image-height: 100%
 format:
   html:
     page-layout: full
 title-block-banner: false
 ---
+
+<style>
+.case-study-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.case-study-card {
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s, transform 0.2s;
+  background: white;
+}
+
+.case-study-card:hover {
+  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+  transform: translateY(-2px);
+}
+
+.case-study-card h3 {
+  margin-top: 0;
+  color: #0077b5;
+  font-size: 1.2rem;
+}
+
+.case-study-card .subtitle {
+  color: #666;
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+
+.case-study-card .tags {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.case-study-card .tag {
+  background: #f0f0f0;
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  font-size: 0.75rem;
+  color: #555;
+}
+
+.case-study-card .result {
+  margin-top: 1rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  font-weight: 600;
+  color: #2e7d32;
+}
+
+/* Modal styles */
+.slides-modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.85);
+  z-index: 9999;
+  justify-content: center;
+  align-items: center;
+}
+
+.slides-modal.active {
+  display: flex;
+}
+
+.slides-modal-content {
+  width: 90%;
+  height: 85%;
+  max-width: 1200px;
+  position: relative;
+}
+
+.slides-modal iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+
+.slides-modal-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  color: white;
+  font-size: 2rem;
+  cursor: pointer;
+  background: none;
+  border: none;
+  padding: 0.5rem;
+}
+
+.slides-modal-close:hover {
+  color: #ccc;
+}
+</style>
+
+<div class="case-study-grid">
+
+<div class="case-study-card" onclick="openSlides('grocery-retailer/slides.html')">
+<h3>Regional Grocery Chain</h3>
+<div class="subtitle">Zone-based pricing for a 200+ store retailer</div>
+<div class="tags">
+<span class="tag">Pricing</span>
+<span class="tag">Retail</span>
+<span class="tag">Elasticity</span>
+</div>
+<div class="result">→ 12% margin improvement</div>
+</div>
+
+<div class="case-study-card" onclick="openSlides('b2b-distributor/slides.html')">
+<h3>Industrial Distributor</h3>
+<div class="subtitle">Demand-based pricing for 8,000 SKUs</div>
+<div class="tags">
+<span class="tag">Pricing</span>
+<span class="tag">B2B</span>
+<span class="tag">Forecasting</span>
+</div>
+<div class="result">→ 8% margin improvement</div>
+</div>
+
+</div>
+
+<!-- Modal for slides -->
+<div class="slides-modal" id="slidesModal">
+<div class="slides-modal-content">
+<button class="slides-modal-close" onclick="closeSlides()">×</button>
+<iframe id="slidesFrame" src=""></iframe>
+</div>
+</div>
+
+<script>
+function openSlides(url) {
+  document.getElementById('slidesFrame').src = url;
+  document.getElementById('slidesModal').classList.add('active');
+  document.body.style.overflow = 'hidden';
+}
+
+function closeSlides() {
+  document.getElementById('slidesModal').classList.remove('active');
+  document.getElementById('slidesFrame').src = '';
+  document.body.style.overflow = '';
+}
+
+// Close on escape key
+document.addEventListener('keydown', function(e) {
+  if (e.key === 'Escape') closeSlides();
+});
+
+// Close on click outside
+document.getElementById('slidesModal').addEventListener('click', function(e) {
+  if (e.target === this) closeSlides();
+});
+</script>
