@@ -3,8 +3,6 @@ title: "Case Studies"
 author: ""
 comments: false
 citation: false
-description: |
-  Selected pricing and revenue optimization projects.<br>Client names anonymized; results representative of actual engagements.
 format:
   html:
     page-layout: full
