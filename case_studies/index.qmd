@@ -55,9 +55,6 @@ title-block-banner: false
 
 .card-footer {
   padding: 1rem 1.25rem;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
 }
 
 .tags {
@@ -72,12 +69,6 @@ title-block-banner: false
   border-radius: 4px;
   font-size: 0.75rem;
   color: #555;
-}
-
-.result {
-  font-weight: 600;
-  color: #2e7d32;
-  font-size: 0.9rem;
 }
 
 /* Modal styles */
@@ -142,7 +133,6 @@ title-block-banner: false
 <span class="tag">Retail</span>
 <span class="tag">Elasticity</span>
 </div>
-<span class="result">+12% margin</span>
 </div>
 </div>
 
@@ -157,7 +147,6 @@ title-block-banner: false
 <span class="tag">B2B</span>
 <span class="tag">Forecasting</span>
 </div>
-<span class="result">+8% margin</span>
 </div>
 </div>
 
