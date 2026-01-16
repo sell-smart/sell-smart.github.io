@@ -1,5 +1,6 @@
 ---
-title: "Case Studies"
+title: ""
+pagetitle: "Case Studies"
 author: ""
 comments: false
 citation: false
