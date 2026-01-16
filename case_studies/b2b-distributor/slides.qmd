@@ -11,38 +11,35 @@ format:
     hash: true
     embed-resources: true
     standalone: true
-    include-in-header:
-      text: |
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 ---
 
-## <i class="fa-solid fa-industry"></i> The Challenge
+## The Challenge
 
 A technical components distributor with **8,000+ SKUs** had pricing chaos:
 
 ::: {.incremental}
-- <i class="fa-solid fa-puzzle-piece"></i> Patchwork of cost-plus, competitor-matching, and forgotten prices
-- <i class="fa-solid fa-percent"></i> Sales team had broad discounting authority → margin erosion
-- <i class="fa-solid fa-database"></i> 60% of SKUs sold <50 units/year (sparse data)
-- <i class="fa-solid fa-user-shield"></i> Sales culture resistant to "black box" pricing
+- Patchwork of cost-plus, competitor-matching, and forgotten prices
+- Sales team had broad discounting authority → margin erosion
+- 60% of SKUs sold <50 units/year (sparse data)
+- Sales culture resistant to "black box" pricing
 :::
 
 ---
 
-## <i class="fa-solid fa-lightbulb"></i> The Approach
+## The Approach
 
 Developed a **hierarchical pricing model** that works despite data sparsity:
 
 ::: {.incremental}
-- <i class="fa-solid fa-sitemap"></i> **Category-level estimation:** Shrink SKU estimates toward category priors
-- <i class="fa-solid fa-users"></i> **Customer segmentation:** Price-sensitive vs. relationship accounts
-- <i class="fa-solid fa-signal"></i> **WTP signals:** Quote-to-order rates, discount request frequency
-- <i class="fa-solid fa-eye"></i> **Transparent outputs:** Confidence intervals + plain-language explanations
+- **Category-level estimation:** Shrink SKU estimates toward category priors
+- **Customer segmentation:** Price-sensitive vs. relationship accounts
+- **WTP signals:** Quote-to-order rates, discount request frequency
+- **Transparent outputs:** Confidence intervals + plain-language explanations
 :::
 
 ---
 
-## <i class="fa-solid fa-chart-pie"></i> The Outcome
+## The Outcome
 
 After 12 months:
 
@@ -70,7 +67,7 @@ After 12 months:
 :::
 ::: {.column width="50%"}
 ::: {.metric-card}
-[<i class="fa-solid fa-robot"></i>]{.number}
+[Auto]{.number}
 [Pricing automated]{.label}
 :::
 :::
@@ -78,10 +75,10 @@ After 12 months:
 
 ---
 
-## <i class="fa-solid fa-key"></i> Key Insight
+## Key Insight
 
 > B2B pricing isn't about finding the "right" price — it's about giving sales teams **defensible anchors**.
 
 ::: {.highlight-box style="margin-top: 1em;"}
-<i class="fa-solid fa-comments"></i> A model that **explains its reasoning** gets adopted. A model that just outputs numbers gets ignored.
+A model that **explains its reasoning** gets adopted. A model that just outputs numbers gets ignored.
 :::

@@ -11,37 +11,34 @@ format:
     hash: true
     embed-resources: true
     standalone: true
-    include-in-header:
-      text: |
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 ---
 
-## <i class="fa-solid fa-store"></i> The Challenge
+## The Challenge
 
 A **200+ store grocery retailer** across three countries was using uniform pricing everywhere.
 
 ::: {.incremental}
-- <i class="fa-solid fa-arrow-down"></i> Underpricing in affluent urban areas
-- <i class="fa-solid fa-arrow-up"></i> Losing volume to discounters in price-sensitive regions
-- <i class="fa-solid fa-circle-xmark"></i> Previous attempts based on gut feel failed
+- Underpricing in affluent urban areas
+- Losing volume to discounters in price-sensitive regions
+- Previous attempts based on gut feel failed
 :::
 
 ---
 
-## <i class="fa-solid fa-lightbulb"></i> The Approach
+## The Approach
 
 Built a **zone-based pricing model** using 18 months of transaction data across ~4,000 SKUs.
 
 ::: {.incremental}
-- <i class="fa-solid fa-layer-group"></i> **Store clustering:** 5 pricing zones by competition, basket size, demographics
-- <i class="fa-solid fa-chart-line"></i> **Category elasticity:** Separated "known value items" from margin categories
-- <i class="fa-solid fa-shield-halved"></i> **Guardrails:** Maximum price differentials to avoid backlash
-- <i class="fa-solid fa-rocket"></i> **Phased rollout:** 3 test zones, 200 SKUs first
+- **Store clustering:** 5 pricing zones by competition, basket size, demographics
+- **Category elasticity:** Separated "known value items" from margin categories
+- **Guardrails:** Maximum price differentials to avoid backlash
+- **Phased rollout:** 3 test zones, 200 SKUs first
 :::
 
 ---
 
-## <i class="fa-solid fa-chart-pie"></i> The Outcome
+## The Outcome
 
 Six months after full rollout:
 
@@ -77,12 +74,12 @@ Six months after full rollout:
 
 ---
 
-## <i class="fa-solid fa-key"></i> Key Insight
+## Key Insight
 
 > Most retailers think "regional pricing" means charging more in rich areas.
 
 The real opportunity is **surgical**: raise prices on items customers don't compare, stay sharp on the items they do.
 
 ::: {.highlight-box style="margin-top: 1em;"}
-<i class="fa-solid fa-bullseye"></i> The zone structure matters less than understanding which products drive price perception.
+The zone structure matters less than understanding which products drive price perception.
 :::

@@ -1,5 +1,5 @@
 /*-- scss:defaults --*/
-$presentation-heading-color: #1a1a2e;
+$presentation-heading-color: #0077b5;
 $body-color: #333;
 $link-color: #0077b5;
 $code-color: #0077b5;
@@ -12,6 +12,12 @@ $code-color: #0077b5;
 .reveal h1, .reveal h2, .reveal h3 {
   font-weight: 600;
   text-transform: none;
+  color: #0077b5;
+}
+
+.reveal .slides > section.title-slide h1,
+.reveal .slides > section.title-slide .title {
+  color: #0077b5;
 }
 
 .reveal h2 {
@@ -97,13 +103,10 @@ $code-color: #0077b5;
 }
 
 .reveal ul li::before {
-  content: "\f00c";
-  font-family: "Font Awesome 6 Free";
-  font-weight: 900;
+  content: "▸";
   position: absolute;
   left: 0;
   color: #0077b5;
-  font-size: 0.8em;
 }
 
 /* Highlight box */
