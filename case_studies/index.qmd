@@ -14,7 +14,7 @@ title-block-banner: false
 <style>
 .case-study-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
   gap: 2rem;
   margin-top: 2rem;
 }
@@ -22,10 +22,10 @@ title-block-banner: false
 .case-study-card {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
-  padding: 1.5rem;
   cursor: pointer;
   transition: box-shadow 0.2s, transform 0.2s;
   background: white;
+  overflow: hidden;
 }
 
 .case-study-card:hover {
@@ -33,16 +33,26 @@ title-block-banner: false
   transform: translateY(-2px);
 }
 
-.case-study-card h3 {
-  margin-top: 0;
-  color: #0077b5;
-  font-size: 1.2rem;
+.slide-preview {
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  overflow: hidden;
+  position: relative;
+  background: #f8f9fa;
+  border-bottom: 1px solid #e0e0e0;
 }
 
-.case-study-card .subtitle {
-  color: #666;
-  font-size: 0.9rem;
-  margin-bottom: 1rem;
+.slide-preview iframe {
+  width: 200%;
+  height: 200%;
+  border: none;
+  transform: scale(0.5);
+  transform-origin: top left;
+  pointer-events: none;
+}
+
+.card-footer {
+  padding: 1rem 1.25rem;
 }
 
 .case-study-card .tags {
@@ -57,14 +67,6 @@ title-block-banner: false
   border-radius: 4px;
   font-size: 0.75rem;
   color: #555;
-}
-
-.case-study-card .result {
-  margin-top: 1rem;
-  padding-top: 1rem;
-  border-top: 1px solid #eee;
-  font-weight: 600;
-  color: #2e7d32;
 }
 
 /* Modal styles */
@@ -119,25 +121,29 @@ title-block-banner: false
 <div class="case-study-grid">
 
 <div class="case-study-card" onclick="openSlides('grocery-retailer/slides.html')">
-<h3>Regional Grocery Chain</h3>
-<div class="subtitle">Zone-based pricing for a 200+ store retailer</div>
+<div class="slide-preview">
+<iframe src="grocery-retailer/slides.html" loading="lazy"></iframe>
+</div>
+<div class="card-footer">
 <div class="tags">
 <span class="tag">Pricing</span>
 <span class="tag">Retail</span>
 <span class="tag">Elasticity</span>
 </div>
-<div class="result">→ 12% margin improvement</div>
+</div>
 </div>
 
 <div class="case-study-card" onclick="openSlides('b2b-distributor/slides.html')">
-<h3>Industrial Distributor</h3>
-<div class="subtitle">Demand-based pricing for 8,000 SKUs</div>
+<div class="slide-preview">
+<iframe src="b2b-distributor/slides.html" loading="lazy"></iframe>
+</div>
+<div class="card-footer">
 <div class="tags">
 <span class="tag">Pricing</span>
 <span class="tag">B2B</span>
 <span class="tag">Forecasting</span>
 </div>
-<div class="result">→ 8% margin improvement</div>
+</div>
 </div>
 
 </div>
