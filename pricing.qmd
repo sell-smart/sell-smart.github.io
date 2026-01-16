@@ -1,6 +1,6 @@
 ---
-title: "Profitable Pricing"
-subtitle: "A Practical Guide to Pricing."
+title: ""
+pagetitle: "Profitable Pricing"
 page-layout: full
 toc: false
 format: html
