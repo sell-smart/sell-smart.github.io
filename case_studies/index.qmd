@@ -14,8 +14,8 @@ title-block-banner: false
 <style>
 .case-study-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(340px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 320px));
+  gap: 1.5rem;
   margin-top: 2rem;
 }
 
@@ -35,7 +35,7 @@ title-block-banner: false
 
 .slide-preview {
   width: 100%;
-  aspect-ratio: 16 / 10;
+  aspect-ratio: 16 / 9;
   overflow: hidden;
   position: relative;
   background: #f8f9fa;
@@ -43,10 +43,10 @@ title-block-banner: false
 }
 
 .slide-preview iframe {
-  width: 200%;
-  height: 200%;
+  width: 300%;
+  height: 300%;
   border: none;
-  transform: scale(0.5);
+  transform: scale(0.333);
   transform-origin: top left;
   pointer-events: none;
 }
