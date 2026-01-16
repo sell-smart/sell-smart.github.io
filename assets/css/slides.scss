@@ -1,0 +1,124 @@
+/*-- scss:defaults --*/
+$presentation-heading-color: #1a1a2e;
+$body-color: #333;
+$link-color: #0077b5;
+$code-color: #0077b5;
+
+/*-- scss:rules --*/
+.reveal {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.reveal h1, .reveal h2, .reveal h3 {
+  font-weight: 600;
+  text-transform: none;
+}
+
+.reveal h2 {
+  border-bottom: 3px solid #0077b5;
+  padding-bottom: 0.3em;
+  margin-bottom: 0.8em;
+}
+
+.reveal .subtitle {
+  color: #666;
+  font-size: 1.2em;
+}
+
+/* Metric cards */
+.metric-card {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 12px;
+  padding: 1.5em;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.metric-card .number {
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #0077b5;
+  display: block;
+}
+
+.metric-card .label {
+  font-size: 0.9em;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+/* Icon styling */
+.reveal i.fa, .reveal i.fas, .reveal i.fab {
+  color: #0077b5;
+  margin-right: 0.3em;
+}
+
+/* Blockquote styling */
+.reveal blockquote {
+  background: #f8f9fa;
+  border-left: 5px solid #0077b5;
+  padding: 1em 1.5em;
+  font-style: italic;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+/* Table styling */
+.reveal table {
+  border-collapse: collapse;
+  margin: 1em auto;
+}
+
+.reveal table th {
+  background: #0077b5;
+  color: white;
+  padding: 0.7em 1em;
+}
+
+.reveal table td {
+  padding: 0.6em 1em;
+  border-bottom: 1px solid #dee2e6;
+}
+
+.reveal table tr:hover td {
+  background: #f8f9fa;
+}
+
+/* List styling */
+.reveal ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.reveal ul li {
+  padding-left: 1.5em;
+  position: relative;
+  margin-bottom: 0.5em;
+}
+
+.reveal ul li::before {
+  content: "\f00c";
+  font-family: "Font Awesome 6 Free";
+  font-weight: 900;
+  position: absolute;
+  left: 0;
+  color: #0077b5;
+  font-size: 0.8em;
+}
+
+/* Highlight box */
+.highlight-box {
+  background: #0077b5;
+  color: white;
+  padding: 1em 1.5em;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+/* Two column layout helper */
+.columns-2 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 2em;
+  align-items: center;
+}

@@ -3,7 +3,7 @@ title: "Industrial Distributor"
 subtitle: "Demand-Based Pricing for 8,000 SKUs"
 format:
   revealjs:
-    theme: simple
+    theme: [default, ../../assets/css/slides.scss]
     navigation-mode: linear
     controls: true
     progress: true
@@ -11,51 +11,77 @@ format:
     hash: true
     embed-resources: true
     standalone: true
+    include-in-header:
+      text: |
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 ---
 
-## The Challenge
+## <i class="fa-solid fa-industry"></i> The Challenge
 
 A technical components distributor with **8,000+ SKUs** had pricing chaos:
 
 ::: {.incremental}
-- Patchwork of cost-plus, competitor-matching, and forgotten prices
-- Sales team had broad discounting authority → margin erosion
-- 60% of SKUs sold <50 units/year (sparse data)
-- Sales culture resistant to "black box" pricing
+- <i class="fa-solid fa-puzzle-piece"></i> Patchwork of cost-plus, competitor-matching, and forgotten prices
+- <i class="fa-solid fa-percent"></i> Sales team had broad discounting authority → margin erosion
+- <i class="fa-solid fa-database"></i> 60% of SKUs sold <50 units/year (sparse data)
+- <i class="fa-solid fa-user-shield"></i> Sales culture resistant to "black box" pricing
 :::
 
 ---
 
-## The Approach
+## <i class="fa-solid fa-lightbulb"></i> The Approach
 
 Developed a **hierarchical pricing model** that works despite data sparsity:
 
 ::: {.incremental}
-- **Category-level estimation:** Shrink SKU estimates toward category priors
-- **Customer segmentation:** Price-sensitive vs. relationship accounts
-- **WTP signals:** Quote-to-order rates, discount request frequency
-- **Transparent outputs:** Confidence intervals + plain-language explanations
+- <i class="fa-solid fa-sitemap"></i> **Category-level estimation:** Shrink SKU estimates toward category priors
+- <i class="fa-solid fa-users"></i> **Customer segmentation:** Price-sensitive vs. relationship accounts
+- <i class="fa-solid fa-signal"></i> **WTP signals:** Quote-to-order rates, discount request frequency
+- <i class="fa-solid fa-eye"></i> **Transparent outputs:** Confidence intervals + plain-language explanations
 :::
 
 ---
 
-## The Outcome
+## <i class="fa-solid fa-chart-pie"></i> The Outcome
 
 After 12 months:
 
-| Metric | Result |
-|--------|--------|
-| Average margin improvement | **+8%** |
-| Reduction in ad-hoc discounting | **-15%** |
-| Underpriced SKUs identified | **400+** |
-| Pricing workload | **Automated** |
+:::: {.columns}
+::: {.column width="50%"}
+::: {.metric-card}
+[+8%]{.number}
+[Avg. margin improvement]{.label}
+:::
+:::
+::: {.column width="50%"}
+::: {.metric-card}
+[-15%]{.number}
+[Ad-hoc discounting]{.label}
+:::
+:::
+::::
+
+:::: {.columns style="margin-top: 1em;"}
+::: {.column width="50%"}
+::: {.metric-card}
+[400+]{.number}
+[Underpriced SKUs found]{.label}
+:::
+:::
+::: {.column width="50%"}
+::: {.metric-card}
+[<i class="fa-solid fa-robot"></i>]{.number}
+[Pricing automated]{.label}
+:::
+:::
+::::
 
 ---
 
-## Key Insight
+## <i class="fa-solid fa-key"></i> Key Insight
 
 > B2B pricing isn't about finding the "right" price — it's about giving sales teams **defensible anchors**.
 
-A model that **explains its reasoning** gets adopted.
-
-A model that just outputs numbers gets ignored or overridden.
+::: {.highlight-box style="margin-top: 1em;"}
+<i class="fa-solid fa-comments"></i> A model that **explains its reasoning** gets adopted. A model that just outputs numbers gets ignored.
+:::
