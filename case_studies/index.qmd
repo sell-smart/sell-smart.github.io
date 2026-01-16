@@ -19,13 +19,22 @@ title-block-banner: false
   margin-top: 2rem;
 }
 
+.case-study-item {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
 .case-study-card {
   border: 1px solid #e0e0e0;
   border-radius: 8px;
   cursor: pointer;
   transition: box-shadow 0.2s, transform 0.2s;
-  background: white;
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   overflow: hidden;
+  padding: 2rem 1.5rem;
+  text-align: center;
+  border-bottom: 3px solid #0077b5;
 }
 
 .case-study-card:hover {
@@ -33,28 +42,17 @@ title-block-banner: false
   transform: translateY(-3px);
 }
 
-.card-preview {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  padding: 2rem 1.5rem;
-  text-align: center;
-  border-bottom: 3px solid #0077b5;
-}
-
-.card-preview h3 {
+.case-study-card h3 {
   color: #0077b5;
   margin: 0 0 0.5rem 0;
   font-size: 1.3rem;
   font-weight: 600;
 }
 
-.card-preview .subtitle {
+.case-study-card .subtitle {
   color: #555;
   font-size: 0.95rem;
   margin: 0;
-}
-
-.card-footer {
-  padding: 1rem 1.25rem;
 }
 
 .tags {
@@ -64,7 +62,7 @@ title-block-banner: false
 }
 
 .tag {
-  background: #f0f0f0;
+  background: #e9ecef;
   padding: 0.25rem 0.5rem;
   border-radius: 4px;
   font-size: 0.75rem;
@@ -122,31 +120,27 @@ title-block-banner: false
 
 <div class="case-study-grid">
 
+<div class="case-study-item">
 <div class="case-study-card" onclick="openSlides('grocery-retailer/slides.html')">
-<div class="card-preview">
 <h3>Regional Grocery Chain</h3>
 <p class="subtitle">12% Margin Lift Through Zone-Based Pricing</p>
 </div>
-<div class="card-footer">
 <div class="tags">
 <span class="tag">Pricing</span>
 <span class="tag">Retail</span>
 <span class="tag">Elasticity</span>
 </div>
 </div>
-</div>
 
+<div class="case-study-item">
 <div class="case-study-card" onclick="openSlides('b2b-distributor/slides.html')">
-<div class="card-preview">
 <h3>Industrial Distributor</h3>
 <p class="subtitle">Demand-Based Pricing for 8,000 SKUs</p>
 </div>
-<div class="card-footer">
 <div class="tags">
 <span class="tag">Pricing</span>
 <span class="tag">B2B</span>
 <span class="tag">Forecasting</span>
-</div>
 </div>
 </div>
 
