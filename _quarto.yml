@@ -47,21 +47,15 @@ website:
       - text: About
         aria-label: "About"
         href: about.qmd
-      - text: Services
-        aria-label: "Services"
-        href: services.qmd
-      - text: Case Studies
-        aria-label: "Case Studies"
-        href: case_studies/index.qmd
       - text: Profitable Pricing
         aria-label: "Profitable Pricing"
         href: pricing.qmd
-      - text: FAQ
-        aria-label: "FAQ"
-        href: pricing_faq.qmd
-      #- text: Blog
-      #  aria-label: "Blog"
-      #  href: blog/index.qmd
+      - text: Case Studies
+        aria-label: "Case Studies"
+        href: case_studies/index.qmd
+      - text: Contact
+        aria-label: "Contact"
+        href: contact.qmd
 
 format: 
   html:
