@@ -101,18 +101,24 @@ title-block-banner: false
 
 .slides-modal-close {
   position: absolute;
-  top: -40px;
-  right: 0;
+  top: 10px;
+  right: 10px;
   color: white;
-  font-size: 2rem;
+  font-size: 1.5rem;
   cursor: pointer;
-  background: none;
+  background: rgba(0,0,0,0.5);
   border: none;
-  padding: 0.5rem;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 10000;
 }
 
 .slides-modal-close:hover {
-  color: #ccc;
+  background: rgba(0,0,0,0.8);
 }
 </style>
 
