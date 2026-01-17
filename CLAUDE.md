@@ -5,8 +5,11 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Build Commands
 
 ```bash
-quarto render              # Build site
-quarto preview             # Preview with live reload
+make                       # Build site + slides
+make render                # Build site only
+make slides                # Build and copy slides only
+make preview               # Preview with live reload
+make clean                 # Remove all generated files
 ```
 
 ## Architecture
