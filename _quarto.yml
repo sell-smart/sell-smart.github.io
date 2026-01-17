@@ -5,44 +5,14 @@ project:
     - "**/*.qmd"
     - "!**/slides.qmd"
 
-  # post-render:
-  #   - "cp -rnv static/. _site" # source: https://github.com/quarto-dev/quarto-cli/discussions/4162#discussioncomment-4831352
-
 website:
   title: "Pavel Logačev"
   site-url: https://sell-smart.github.io
   description: "Pricing & Revenue Optimization Data Scientist"
-  #favicon: assets/silvia/img/logo_rounded.svg
   page-navigation: true
   back-to-top-navigation: true
-  #twitter-card:
-  #  creator: "@spcanelon"
-  #  site: "@spcanelon"
-  #  card-style: summary_large_image
-  #comments: 
-  #  utterances: 
-  #    repo: spcanelon/silvia 
-  #    label: utterances
-  #    theme: flatly
-  #    issue-term: title
-  # search:
-  #   algolia:
-  #     index-name: silviacanelon_com_2nwwu5566h_pages
-  #     application-id: 2NWWU5566H
-  #     search-only-api-key: 4fc205c04b677b0951348a8571b2d7d0
-  #     show-logo: false
-      # index-fields:
-      #   href: url
-      #   title: title
-      #   section: subtitle
-      #   text: body
- 
+
   navbar:
-    #logo: assets/silvia/img/logo_rounded.svg
-    # logo: assets/silvia/img/logo_noBg.svg
-    #tools:
-    #- icon: github
-    #  href: https://github.com/plogacev
     right:
       - text: About
         aria-label: "About"
@@ -67,7 +37,5 @@ format:
     pagetitle: "{{< meta title >}}"
     lightbox: true
 
-execute: 
+execute:
   freeze: auto
-
-#include-in-header: assets/silvia/umami.html

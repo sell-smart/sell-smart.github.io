@@ -1,44 +1,19 @@
 ---
 title: "Pavel Logačev"
 subtitle: Pricing & Revenue Optimization Data Scientist
-image: ../assets/images/pavel.png
-#image-alt: "Smiling woman with a tan complexion, dark eyes, and dark long wavy hair styled to one side"
+image: assets/images/pavel.png
 about:
   template: trestles
-  image-width: 14em
+  image-width: 10em
   image-shape: rounded
   id: hero-heading
   links:
-    #- text: "{{< fa universal-access >}}"
-    #  aria-label: "Accessibility statement"
-    #  href: accessibility.qmd
-    #- text: "{{< fa brands bluesky >}}"
-    #  aria-label: "Bluesky"
-    #  href: https://bsky.app/profile/silviacanelon.com
     - icon: linkedin
       aria-label: "LinkedIn"
       href: https://www.linkedin.com/in/pavel-logacev
-    #- icon: github
-    #  aria-label: GitHub
-    #  href: https://github.com/plogacev
-    # - icon: mastodon
-    #   href: https://hachyderm.io/@spcanelon
-    #- text: "{{< ai orcid >}}"
-    #  href: https://orcid.org/0000-0002-2837-2258
-    #- text: "{{< ai google-scholar >}}"
-    #  aria-label: "Google Scholar"
-    #  href: https://scholar.google.com/citations?user=fhbdTJIAAAAJ
-    #- text: "{{< fa envelope >}}"
-    #  aria-label: Newsletter
-    #  href: https://buttondown.com/spcanelon
-format: 
-  html: 
+format:
+  html:
     page-layout: full
-
-header-includes: >
-  <link rel="stylesheet" href="../assets/about.css">
-resources:
-  - ../assets/about.css
 ---
 
 ::: {#hero-heading}

@@ -1,35 +1,10 @@
 ---
-#title: "Pavel Logačev, PhD"
-pagetitle: "Pavel Logačev, PhD"
-#subtitle: "Turning Complex Data into Profitable Decisions"
-#image: assets/images/pavel.png
-#image-alt: "Illustration of pricing"
+pagetitle: "Pavel Logačev - Pricing & Revenue Optimization"
 
-#linkedin-card:
-#  title: Pavel Logačev, PhD
-#description: |
-#  Pricing & Revenue Optimization Specialist
-#image: assets/silvia/img/silvia-social.png
-
-#- icon: github
-#  aria-label: GitHub
-#  href: https://github.com/plogacev
-#
-# to-do: add email
-#
-#- text: "{{< ai orcid >}}"
-#  href: https://orcid.org/0000-0002-2837-2258
-#- text: "{{< ai google-scholar >}}"
-#  aria-label: "Google Scholar"
-#  href: https://scholar.google.com/citations?user=fhbdTJIAAAAJ
-#- text: "{{< fa envelope >}}"
-#  aria-label: Newsletter
-#  href: https://buttondown.com/spcanelon
-
-execute: 
+execute:
   freeze: false
-echo: false
-warning: false
+  echo: false
+  warning: false
 
 header-includes: >
   <link rel="stylesheet" href="assets/css/index.css">
@@ -39,25 +14,24 @@ resources:
 
 ::: {.grid}
 
-<!-- Row 1 -->
 ::: {.g-col-6 .text-center}
 ![](assets/images/pavel.png){width="160px"}
 
-### Pavel Logačev, PhD 
+### Pavel Logačev, PhD
 Turning Complex Data into Profitable Decisions
 
 [{{< fa brands linkedin >}}](https://www.linkedin.com/in/pavel-logacev){.linkedin-icon aria-label="LinkedIn"}
 
-I help businesses set smarter prices and take smart decisions grounded in data — even when data is sparse, messy, or fragmented.
+I help businesses set smarter prices and make decisions grounded in data — even when data is sparse, messy, or fragmented.
 
-- Increase revenue through optimized pricing  
-- Gain reliable forecasts despite limited data  
-- Make confident decisions without relying on black‑box tools  
+- Increase revenue through optimized pricing
+- Gain reliable forecasts despite limited data
+- Make confident decisions without relying on black-box tools
 
 :::
 
 ::: {.g-col-6}
-### See What’s Possible
+### See What's Possible
 
 Share your pricing challenge — I'll show you a path forward.
 
@@ -70,4 +44,3 @@ Share your pricing challenge — I'll show you a path forward.
 :::
 
 :::
-
