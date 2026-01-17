@@ -1,0 +1,31 @@
+---
+title: "B2B Building Supplies Distributor — Discount Consistency"
+subtitle: "Reducing margin erosion from erratic sales discounting"
+date: 2024-03-15
+categories: [Pricing, B2B, Segmentation]
+---
+
+## The Challenge
+
+A building supplies wholesaler had a discount problem: sales reps were giving discounts that varied wildly — some far larger than necessary to close deals. This erratic discounting was eating into margins and creating inconsistent customer experiences. Customers doing similar business were getting very different treatment depending on which rep they worked with.
+
+## The Approach
+
+The solution required understanding both customer value and product characteristics:
+
+- **Customer segmentation:** Grouped customers by relevant properties (size, loyalty, purchase patterns) to establish appropriate discount bands
+- **Product segmentation:** Categorized products to determine where discounts were justified vs. where they were being given away unnecessarily
+
+The goal was to create clear guidelines that would standardize discounting behavior while still allowing flexibility where it made business sense.
+
+## The Outcome
+
+The project delivered a framework for consistent discounting. However, measuring impact remains difficult:
+- Margin improvement is hard to isolate from other business changes
+- "Price consistency" doesn't have a clean metric
+
+The primary value was operational: giving the sales team clear guardrails and reducing the chaos of ad-hoc pricing decisions.
+
+## Key Insight
+
+> In B2B, the problem often isn't finding the "right" price — it's preventing the erosion that happens when every deal gets negotiated from scratch. Consistency builds trust with customers and protects margins.

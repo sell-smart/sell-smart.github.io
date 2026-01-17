@@ -1,0 +1,35 @@
+---
+title: "Sports Retailer — Multi-Wave Price Optimization"
+subtitle: "Repeated optimization cycles with KVI protection and markdown optimization"
+date: 2024-02-15
+categories: [Pricing, Retail, Elasticity]
+---
+
+## The Challenge
+
+A major sports retailer needed ongoing price optimization across their product range. The complexity: they had uniform pricing across all channels and locations, strict constraints around "key value items" that drive price perception, and messy data that required significant cleaning before any analysis could begin.
+
+## The Approach
+
+I ran multiple optimization waves over an extended engagement, each wave taking 1-2 months:
+
+- **Elasticity estimation:** Built demand models to understand price sensitivity by product
+- **KVI protection:** Identified and protected key value items and destination products from aggressive price increases
+- **Business constraints:** Incorporated client requirements (e.g., "increase prices in category X, hold category Y")
+- **Markdown optimization:** One dedicated wave focused on end-of-life pricing to clear inventory efficiently
+
+### Data Challenges
+
+The data environment was difficult:
+- Most data fields were undocumented
+- Duplicate transactions appeared throughout
+- Product lifecycle information was outdated, but it wasn't clear which records were stale
+- Much had to be inferred from patterns rather than documentation
+
+## The Outcome
+
+Each wave delivered optimized prices that balanced margin improvement against volume protection. The markdown wave specifically helped clear aging inventory without leaving money on the table.
+
+## Key Insight
+
+> Price optimization isn't a one-time project. Markets shift, costs change, and competitor behavior evolves. Repeated optimization waves catch drift and compound improvements over time.

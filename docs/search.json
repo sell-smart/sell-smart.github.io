@@ -14,39 +14,74 @@
     "text": "Pavel Logačev, PhD\nTurning Complex Data into Profitable Decisions\n\nI help businesses set smarter prices and take smart decisions grounded in data — even when data is sparse, messy, or fragmented.\n\nIncrease revenue through optimized pricing\n\nGain reliable forecasts despite limited data\n\nMake confident decisions without relying on black‑box tools\n\n\n\n\nSee What’s Possible\nShare your pricing challenge — I’ll show you a path forward.\n\n \n\n\nSend Message\n\n\n\n\n\n\n\n Back to top"
   },
   {
-    "objectID": "case_studies/grocery-retailer/index.html",
-    "href": "case_studies/grocery-retailer/index.html",
-    "title": "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing",
+    "objectID": "case_studies/qsr-chain/index.html",
+    "href": "case_studies/qsr-chain/index.html",
+    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
     "section": "",
-    "text": "A mid-sized grocery retailer operating 200+ stores across three countries was using uniform pricing across all locations. Management suspected they were leaving money on the table — underpricing in affluent urban areas while losing volume to discounters in price-sensitive regions — but had no systematic way to quantify the opportunity or act on it.\nPrevious attempts at regional pricing had been based on gut feel and competitor spot-checks, resulting in inconsistent execution and skepticism from store managers."
+    "text": "A quick-service restaurant chain was seeing declining transactions and needed to understand why. The timing was complicated: the decline coincided with both macroeconomic pressures (inflation, cost-of-living concerns) and changes to their loyalty program. Leadership needed to know which factor was driving the drop — the answer would determine whether to adjust pricing strategy or revisit the loyalty program changes."
   },
   {
-    "objectID": "case_studies/grocery-retailer/index.html#the-challenge",
-    "href": "case_studies/grocery-retailer/index.html#the-challenge",
-    "title": "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing",
+    "objectID": "case_studies/qsr-chain/index.html#the-challenge",
+    "href": "case_studies/qsr-chain/index.html#the-challenge",
+    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
     "section": "",
-    "text": "A mid-sized grocery retailer operating 200+ stores across three countries was using uniform pricing across all locations. Management suspected they were leaving money on the table — underpricing in affluent urban areas while losing volume to discounters in price-sensitive regions — but had no systematic way to quantify the opportunity or act on it.\nPrevious attempts at regional pricing had been based on gut feel and competitor spot-checks, resulting in inconsistent execution and skepticism from store managers."
+    "text": "A quick-service restaurant chain was seeing declining transactions and needed to understand why. The timing was complicated: the decline coincided with both macroeconomic pressures (inflation, cost-of-living concerns) and changes to their loyalty program. Leadership needed to know which factor was driving the drop — the answer would determine whether to adjust pricing strategy or revisit the loyalty program changes."
   },
   {
-    "objectID": "case_studies/grocery-retailer/index.html#the-approach",
-    "href": "case_studies/grocery-retailer/index.html#the-approach",
-    "title": "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing",
+    "objectID": "case_studies/qsr-chain/index.html#the-approach",
+    "href": "case_studies/qsr-chain/index.html#the-approach",
+    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
     "section": "The Approach",
-    "text": "The Approach\nI built a zone-based pricing model using 18 months of transaction data across all stores and ~4,000 SKUs. The approach combined:\n\nStore clustering: Grouped locations into 5 pricing zones based on local competition density, average basket size, and demographic indicators — not just geography\nCategory-level elasticity estimation: Separated “known value items” (high price sensitivity, traffic drivers) from margin categories where customers are less price-aware\nGuardrails: Set maximum price differentials between zones to avoid customer backlash and operational complexity\nPhased rollout: Started with 3 test zones and 200 SKUs before expanding, allowing the team to build confidence in the model"
+    "text": "The Approach\nI built competing models to isolate the effects:\n\nModel 1 — Loyalty indicators: Included variables capturing the loyalty program changes and customer engagement metrics\nModel 2 — Macroeconomic indicators: Used CPI, unemployment rates, and other economic signals\n\nBy comparing model performance and coefficient significance, I could assess the relative contribution of each factor to the transaction decline.\nAdditionally, I supported: - Price optimization: Similar to other hospitality engagements - Site re-banding: Clustering locations for appropriate pricing tiers"
   },
   {
-    "objectID": "case_studies/grocery-retailer/index.html#the-outcome",
-    "href": "case_studies/grocery-retailer/index.html#the-outcome",
-    "title": "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing",
+    "objectID": "case_studies/qsr-chain/index.html#the-outcome",
+    "href": "case_studies/qsr-chain/index.html#the-outcome",
+    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
     "section": "The Outcome",
-    "text": "The Outcome\nSix months after full rollout:\n\n12% margin improvement on optimized categories (approximately €2.1M annually)\nFlat volume — elasticity-based guardrails prevented customer defection\nReduced competitor reactivity — targeted pricing on KVIs maintained price image without broad margin erosion\nOperational adoption — pricing team now runs the model quarterly with minimal support"
+    "text": "The Outcome\nThe analysis provided clarity on the drivers of transaction decline, allowing the business to make informed decisions about both pricing and loyalty program strategy."
   },
   {
-    "objectID": "case_studies/grocery-retailer/index.html#key-insight",
-    "href": "case_studies/grocery-retailer/index.html#key-insight",
-    "title": "Regional Grocery Chain — 12% Margin Lift Through Zone-Based Pricing",
+    "objectID": "case_studies/qsr-chain/index.html#key-insight",
+    "href": "case_studies/qsr-chain/index.html#key-insight",
+    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
     "section": "Key Insight",
-    "text": "Key Insight\n\nMost retailers think “regional pricing” means charging more in rich areas. The real opportunity is surgical: raise prices on items customers don’t compare, stay sharp on the items they do. The zone structure matters less than understanding which products drive price perception."
+    "text": "Key Insight\n\nWhen multiple things change at once, you can’t just look at the trend and pick your favorite explanation. Structured model comparison helps separate signal from narrative."
+  },
+  {
+    "objectID": "case_studies/coffee-chain/index.html",
+    "href": "case_studies/coffee-chain/index.html",
+    "title": "National Coffee Chain — Elasticity-Based Price Increases",
+    "section": "",
+    "text": "A national coffee chain needed to increase prices but wanted to do it intelligently — not blanket increases across the board. Previous price changes had been made without understanding which products or locations were most price-sensitive, leading to unpredictable volume impacts."
+  },
+  {
+    "objectID": "case_studies/coffee-chain/index.html#the-challenge",
+    "href": "case_studies/coffee-chain/index.html#the-challenge",
+    "title": "National Coffee Chain — Elasticity-Based Price Increases",
+    "section": "",
+    "text": "A national coffee chain needed to increase prices but wanted to do it intelligently — not blanket increases across the board. Previous price changes had been made without understanding which products or locations were most price-sensitive, leading to unpredictable volume impacts."
+  },
+  {
+    "objectID": "case_studies/coffee-chain/index.html#the-approach",
+    "href": "case_studies/coffee-chain/index.html#the-approach",
+    "title": "National Coffee Chain — Elasticity-Based Price Increases",
+    "section": "The Approach",
+    "text": "The Approach\nUsing POS transaction data, I estimated price elasticity at two levels:\n\nProduct-level elasticity: Identified which menu items customers were most and least sensitive to\nSite-level elasticity: Measured how price sensitivity varied across locations\n\nThis allowed for targeted recommendations: - Increase prices more aggressively on low-elasticity items - Protect high-elasticity traffic drivers - Re-tier sites based on local price sensitivity\n\nData Challenges\nThe data wasn’t clean: - Outlier prices from manual overrides - Multiple price points appearing at the same site on the same day - Missing price data for many product-site combinations\nThese required careful cleaning and validation before modeling."
+  },
+  {
+    "objectID": "case_studies/coffee-chain/index.html#the-outcome",
+    "href": "case_studies/coffee-chain/index.html#the-outcome",
+    "title": "National Coffee Chain — Elasticity-Based Price Increases",
+    "section": "The Outcome",
+    "text": "The Outcome\nThe model identified which products could absorb price increases with minimal volume loss, and which sites should move to different pricing tiers. This replaced gut-feel pricing with data-driven recommendations."
+  },
+  {
+    "objectID": "case_studies/coffee-chain/index.html#key-insight",
+    "href": "case_studies/coffee-chain/index.html#key-insight",
+    "title": "National Coffee Chain — Elasticity-Based Price Increases",
+    "section": "Key Insight",
+    "text": "Key Insight\n\nNot all price increases are equal. A 5% increase on a low-elasticity item might cost you nothing, while the same increase on a traffic driver could hurt footfall across the entire basket."
   },
   {
     "objectID": "blog/index.html",
@@ -70,46 +105,81 @@
     "text": "What I do\n\n\nFrom pricing guesswork to pricing strategy.\nI support clients with:\n\nPrice optimization (margin or revenue focused)\nWillingness-to-pay modeling — even without clean sales data\nDemand forecasting with uncertainty estimates\nStockout detection and adjustment\nCompetitor benchmarking from scraped or third-party data\nA/B test design and analysis\nCausal inference for pricing, marketing, and product decisions\n\nI help you go from messy historical data to a robust pricing process.\n\n\nBusiness-first. Technically fluent.\nI build models that are:\n\nCustom-fit to your context, not off-the-shelf\nDesigned for messy, real-world data\nDelivered as ready-to-use pricing logic, files, or API endpoints\n\nMy goal is always the same: help you charge the right price — confidently, repeatedly, and at scale.\nI’m based in Berlin and work with clients across Europe and North America.\nI speak English, German, and Russian."
   },
   {
-    "objectID": "case_studies/b2b-distributor/index.html",
-    "href": "case_studies/b2b-distributor/index.html",
-    "title": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs",
+    "objectID": "case_studies/building-supplies-distributor/index.html",
+    "href": "case_studies/building-supplies-distributor/index.html",
+    "title": "B2B Building Supplies Distributor — Discount Consistency",
     "section": "",
-    "text": "A technical components distributor selling to manufacturers and repair shops had grown to 8,000+ SKUs through acquisition. Pricing was a patchwork: some products used cost-plus, others matched competitors, many hadn’t been reviewed in years. The sales team had broad discounting authority, leading to margin erosion on high-volume accounts.\nLeadership wanted to professionalize pricing but faced two constraints: sparse transaction data on the long tail (60% of SKUs sold fewer than 50 units/year) and a sales culture resistant to “black box” pricing."
+    "text": "A building supplies wholesaler had a discount problem: sales reps were giving discounts that varied wildly — some far larger than necessary to close deals. This erratic discounting was eating into margins and creating inconsistent customer experiences. Customers doing similar business were getting very different treatment depending on which rep they worked with."
   },
   {
-    "objectID": "case_studies/b2b-distributor/index.html#the-challenge",
-    "href": "case_studies/b2b-distributor/index.html#the-challenge",
-    "title": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs",
+    "objectID": "case_studies/building-supplies-distributor/index.html#the-challenge",
+    "href": "case_studies/building-supplies-distributor/index.html#the-challenge",
+    "title": "B2B Building Supplies Distributor — Discount Consistency",
     "section": "",
-    "text": "A technical components distributor selling to manufacturers and repair shops had grown to 8,000+ SKUs through acquisition. Pricing was a patchwork: some products used cost-plus, others matched competitors, many hadn’t been reviewed in years. The sales team had broad discounting authority, leading to margin erosion on high-volume accounts.\nLeadership wanted to professionalize pricing but faced two constraints: sparse transaction data on the long tail (60% of SKUs sold fewer than 50 units/year) and a sales culture resistant to “black box” pricing."
+    "text": "A building supplies wholesaler had a discount problem: sales reps were giving discounts that varied wildly — some far larger than necessary to close deals. This erratic discounting was eating into margins and creating inconsistent customer experiences. Customers doing similar business were getting very different treatment depending on which rep they worked with."
   },
   {
-    "objectID": "case_studies/b2b-distributor/index.html#the-approach",
-    "href": "case_studies/b2b-distributor/index.html#the-approach",
-    "title": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs",
+    "objectID": "case_studies/building-supplies-distributor/index.html#the-approach",
+    "href": "case_studies/building-supplies-distributor/index.html#the-approach",
+    "title": "B2B Building Supplies Distributor — Discount Consistency",
     "section": "The Approach",
-    "text": "The Approach\nI developed a hierarchical pricing model that worked despite data sparsity:\n\nProduct hierarchy leverage: Estimated elasticity at the category and subcategory level, then shrunk individual SKU estimates toward these priors — allowing even low-volume items to get sensible prices\nCustomer segmentation: Identified price-sensitive transactional buyers vs. relationship accounts, enabling differentiated pricing without universal discounting\nWillingness-to-pay signals: Incorporated quote-to-order conversion rates and discount request frequency as proxies for price sensitivity\nTransparent recommendations: Every price change came with a confidence interval and plain-language explanation — “similar products show X% volume sensitivity” — to build sales team buy-in"
+    "text": "The Approach\nThe solution required understanding both customer value and product characteristics:\n\nCustomer segmentation: Grouped customers by relevant properties (size, loyalty, purchase patterns) to establish appropriate discount bands\nProduct segmentation: Categorized products to determine where discounts were justified vs. where they were being given away unnecessarily\n\nThe goal was to create clear guidelines that would standardize discounting behavior while still allowing flexibility where it made business sense."
   },
   {
-    "objectID": "case_studies/b2b-distributor/index.html#the-outcome",
-    "href": "case_studies/b2b-distributor/index.html#the-outcome",
-    "title": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs",
+    "objectID": "case_studies/building-supplies-distributor/index.html#the-outcome",
+    "href": "case_studies/building-supplies-distributor/index.html#the-outcome",
+    "title": "B2B Building Supplies Distributor — Discount Consistency",
     "section": "The Outcome",
-    "text": "The Outcome\nAfter 12 months:\n\n8% average margin improvement across the catalog\n15% reduction in ad-hoc discounting — sales team used model outputs as negotiation anchors\nLong-tail monetization — identified 400+ SKUs that were significantly underpriced relative to alternatives\nReduced pricing workload — automated recommendations replaced quarterly manual reviews"
+    "text": "The Outcome\nThe project delivered a framework for consistent discounting. However, measuring impact remains difficult: - Margin improvement is hard to isolate from other business changes - “Price consistency” doesn’t have a clean metric\nThe primary value was operational: giving the sales team clear guardrails and reducing the chaos of ad-hoc pricing decisions."
   },
   {
-    "objectID": "case_studies/b2b-distributor/index.html#key-insight",
-    "href": "case_studies/b2b-distributor/index.html#key-insight",
-    "title": "Industrial Distributor — Demand-Based Pricing for 8,000 SKUs",
+    "objectID": "case_studies/building-supplies-distributor/index.html#key-insight",
+    "href": "case_studies/building-supplies-distributor/index.html#key-insight",
+    "title": "B2B Building Supplies Distributor — Discount Consistency",
     "section": "Key Insight",
-    "text": "Key Insight\n\nB2B pricing isn’t about finding the “right” price — it’s about giving sales teams defensible anchors. A model that explains its reasoning gets adopted. A model that just outputs numbers gets ignored or overridden."
+    "text": "Key Insight\n\nIn B2B, the problem often isn’t finding the “right” price — it’s preventing the erosion that happens when every deal gets negotiated from scratch. Consistency builds trust with customers and protects margins."
   },
   {
     "objectID": "case_studies/index.html",
     "href": "case_studies/index.html",
     "title": "Pavel Logačev",
     "section": "",
-    "text": "Regional Grocery Chain\n\n\n12% Margin Lift Through Zone-Based Pricing\n\n\n\nPricing Retail Elasticity\n\n\n\n\n\nIndustrial Distributor\n\n\nDemand-Based Pricing for 8,000 SKUs\n\n\n\nPricing B2B Forecasting\n\n\n\n\n\n\n\n×\n\n\n\n\n\n\n\n\n\n Back to top"
+    "text": "National Coffee Chain\n\n\nElasticity-Based Price Increases\n\n\n\nPricing Hospitality Elasticity\n\n\n\n\n\nSports Retailer\n\n\nMulti-Wave Price Optimization\n\n\n\nPricing Retail KVI Protection\n\n\n\n\n\nB2B Building Supplies\n\n\nDiscount Consistency\n\n\n\nPricing B2B Segmentation\n\n\n\n\n\nQuick-Service Restaurant\n\n\nTransaction Decline Analysis\n\n\n\nAnalysis Hospitality Causal Inference\n\n\n\n\n\n\n\n×\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "case_studies/sports-retailer/index.html",
+    "href": "case_studies/sports-retailer/index.html",
+    "title": "Sports Retailer — Multi-Wave Price Optimization",
+    "section": "",
+    "text": "A major sports retailer needed ongoing price optimization across their product range. The complexity: they had uniform pricing across all channels and locations, strict constraints around “key value items” that drive price perception, and messy data that required significant cleaning before any analysis could begin."
+  },
+  {
+    "objectID": "case_studies/sports-retailer/index.html#the-challenge",
+    "href": "case_studies/sports-retailer/index.html#the-challenge",
+    "title": "Sports Retailer — Multi-Wave Price Optimization",
+    "section": "",
+    "text": "A major sports retailer needed ongoing price optimization across their product range. The complexity: they had uniform pricing across all channels and locations, strict constraints around “key value items” that drive price perception, and messy data that required significant cleaning before any analysis could begin."
+  },
+  {
+    "objectID": "case_studies/sports-retailer/index.html#the-approach",
+    "href": "case_studies/sports-retailer/index.html#the-approach",
+    "title": "Sports Retailer — Multi-Wave Price Optimization",
+    "section": "The Approach",
+    "text": "The Approach\nI ran multiple optimization waves over an extended engagement, each wave taking 1-2 months:\n\nElasticity estimation: Built demand models to understand price sensitivity by product\nKVI protection: Identified and protected key value items and destination products from aggressive price increases\nBusiness constraints: Incorporated client requirements (e.g., “increase prices in category X, hold category Y”)\nMarkdown optimization: One dedicated wave focused on end-of-life pricing to clear inventory efficiently\n\n\nData Challenges\nThe data environment was difficult: - Most data fields were undocumented - Duplicate transactions appeared throughout - Product lifecycle information was outdated, but it wasn’t clear which records were stale - Much had to be inferred from patterns rather than documentation"
+  },
+  {
+    "objectID": "case_studies/sports-retailer/index.html#the-outcome",
+    "href": "case_studies/sports-retailer/index.html#the-outcome",
+    "title": "Sports Retailer — Multi-Wave Price Optimization",
+    "section": "The Outcome",
+    "text": "The Outcome\nEach wave delivered optimized prices that balanced margin improvement against volume protection. The markdown wave specifically helped clear aging inventory without leaving money on the table."
+  },
+  {
+    "objectID": "case_studies/sports-retailer/index.html#key-insight",
+    "href": "case_studies/sports-retailer/index.html#key-insight",
+    "title": "Sports Retailer — Multi-Wave Price Optimization",
+    "section": "Key Insight",
+    "text": "Key Insight\n\nPrice optimization isn’t a one-time project. Markets shift, costs change, and competitor behavior evolves. Repeated optimization waves catch drift and compound improvements over time."
   },
   {
     "objectID": "index.html",

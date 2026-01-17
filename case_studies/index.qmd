@@ -119,26 +119,50 @@ title-block-banner: false
 <div class="case-study-grid">
 
 <div class="case-study-item">
-<div class="case-study-card" onclick="openSlides('grocery-retailer/slides.html')">
-<h3>Regional Grocery Chain</h3>
-<p class="subtitle">12% Margin Lift Through Zone-Based Pricing</p>
+<div class="case-study-card" onclick="openSlides('coffee-chain/slides.html')">
+<h3>National Coffee Chain</h3>
+<p class="subtitle">Elasticity-Based Price Increases</p>
 </div>
 <div class="tags">
 <span class="tag">Pricing</span>
-<span class="tag">Retail</span>
+<span class="tag">Hospitality</span>
 <span class="tag">Elasticity</span>
 </div>
 </div>
 
 <div class="case-study-item">
-<div class="case-study-card" onclick="openSlides('b2b-distributor/slides.html')">
-<h3>Industrial Distributor</h3>
-<p class="subtitle">Demand-Based Pricing for 8,000 SKUs</p>
+<div class="case-study-card" onclick="openSlides('sports-retailer/slides.html')">
+<h3>Sports Retailer</h3>
+<p class="subtitle">Multi-Wave Price Optimization</p>
+</div>
+<div class="tags">
+<span class="tag">Pricing</span>
+<span class="tag">Retail</span>
+<span class="tag">KVI Protection</span>
+</div>
+</div>
+
+<div class="case-study-item">
+<div class="case-study-card" onclick="openSlides('building-supplies-distributor/slides.html')">
+<h3>B2B Building Supplies</h3>
+<p class="subtitle">Discount Consistency</p>
 </div>
 <div class="tags">
 <span class="tag">Pricing</span>
 <span class="tag">B2B</span>
-<span class="tag">Forecasting</span>
+<span class="tag">Segmentation</span>
+</div>
+</div>
+
+<div class="case-study-item">
+<div class="case-study-card" onclick="openSlides('qsr-chain/slides.html')">
+<h3>Quick-Service Restaurant</h3>
+<p class="subtitle">Transaction Decline Analysis</p>
+</div>
+<div class="tags">
+<span class="tag">Analysis</span>
+<span class="tag">Hospitality</span>
+<span class="tag">Causal Inference</span>
 </div>
 </div>
 

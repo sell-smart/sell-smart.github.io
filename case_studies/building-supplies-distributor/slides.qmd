@@ -1,0 +1,81 @@
+---
+title: "B2B Building Supplies Distributor"
+subtitle: "Discount Consistency"
+format:
+  revealjs:
+    theme: [default, ../../assets/css/slides.scss]
+    navigation-mode: linear
+    controls: true
+    progress: true
+    center: true
+    hash: true
+    embed-resources: true
+    standalone: true
+---
+
+## The Challenge
+
+A **building supplies wholesaler** had erratic discounting:
+
+::: {.incremental}
+- Sales reps giving wildly varying discounts
+- Some discounts far larger than needed to close
+- Margin erosion from inconsistent practices
+- Similar customers getting very different treatment
+:::
+
+---
+
+## The Approach
+
+Segmentation at two levels:
+
+::: {.incremental}
+- **Customer segmentation:** Group by size, loyalty, purchase patterns → appropriate discount bands
+- **Product segmentation:** Identify where discounts are justified vs. given away unnecessarily
+:::
+
+Goal: Clear guidelines that standardize behavior while allowing flexibility where justified.
+
+---
+
+## The Outcome
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.metric-card}
+[Consistent]{.number}
+[Discount framework]{.label}
+:::
+:::
+::: {.column width="50%"}
+::: {.metric-card}
+[Clear]{.number}
+[Sales guardrails]{.label}
+:::
+:::
+::::
+
+Primary value was operational: reducing chaos of ad-hoc pricing decisions.
+
+---
+
+## Measurement Challenge
+
+Impact is hard to quantify:
+
+::: {.incremental}
+- Margin improvement hard to isolate from other changes
+- "Price consistency" has no clean metric
+- Value is in process improvement, not a single number
+:::
+
+---
+
+## Key Insight
+
+> In B2B, the problem often isn't finding the "right" price.
+
+It's preventing the erosion when every deal gets negotiated from scratch.
+
+**Consistency builds trust with customers and protects margins.**

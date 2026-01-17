@@ -1,0 +1,39 @@
+---
+title: "National Coffee Chain — Elasticity-Based Price Increases"
+subtitle: "Smart price optimization using product and site-level elasticity"
+date: 2024-01-15
+categories: [Pricing, Hospitality, Elasticity]
+---
+
+## The Challenge
+
+A national coffee chain needed to increase prices but wanted to do it intelligently — not blanket increases across the board. Previous price changes had been made without understanding which products or locations were most price-sensitive, leading to unpredictable volume impacts.
+
+## The Approach
+
+Using POS transaction data, I estimated price elasticity at two levels:
+
+- **Product-level elasticity:** Identified which menu items customers were most and least sensitive to
+- **Site-level elasticity:** Measured how price sensitivity varied across locations
+
+This allowed for targeted recommendations:
+- Increase prices more aggressively on low-elasticity items
+- Protect high-elasticity traffic drivers
+- Re-tier sites based on local price sensitivity
+
+### Data Challenges
+
+The data wasn't clean:
+- Outlier prices from manual overrides
+- Multiple price points appearing at the same site on the same day
+- Missing price data for many product-site combinations
+
+These required careful cleaning and validation before modeling.
+
+## The Outcome
+
+The model identified which products could absorb price increases with minimal volume loss, and which sites should move to different pricing tiers. This replaced gut-feel pricing with data-driven recommendations.
+
+## Key Insight
+
+> Not all price increases are equal. A 5% increase on a low-elasticity item might cost you nothing, while the same increase on a traffic driver could hurt footfall across the entire basket.

@@ -1,0 +1,81 @@
+---
+title: "Sports Retailer"
+subtitle: "Multi-Wave Price Optimization"
+format:
+  revealjs:
+    theme: [default, ../../assets/css/slides.scss]
+    navigation-mode: linear
+    controls: true
+    progress: true
+    center: true
+    hash: true
+    embed-resources: true
+    standalone: true
+---
+
+## The Challenge
+
+A **major sports retailer** needed ongoing price optimization with constraints:
+
+::: {.incremental}
+- Uniform pricing across all channels and locations
+- Strict protection required for "key value items"
+- Messy, undocumented data
+:::
+
+---
+
+## The Approach
+
+**Multiple optimization waves**, each 1-2 months:
+
+::: {.incremental}
+- **Elasticity estimation:** Demand models by product
+- **KVI protection:** Shield traffic drivers from aggressive increases
+- **Business constraints:** Category-specific rules from client
+- **Markdown wave:** End-of-life pricing optimization
+:::
+
+---
+
+## Data Challenges
+
+The data environment was difficult:
+
+::: {.incremental}
+- Most fields undocumented
+- Duplicate transactions throughout
+- Outdated product lifecycle info (unclear which records)
+- Much inferred from patterns, not documentation
+:::
+
+---
+
+## The Outcome
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.metric-card}
+[5+]{.number}
+[Optimization waves]{.label}
+:::
+:::
+::: {.column width="50%"}
+::: {.metric-card}
+[1]{.number}
+[Markdown wave]{.label}
+:::
+:::
+::::
+
+Each wave balanced margin improvement against volume protection.
+
+---
+
+## Key Insight
+
+> Price optimization isn't a one-time project.
+
+Markets shift, costs change, competitor behavior evolves.
+
+**Repeated optimization waves catch drift and compound improvements over time.**

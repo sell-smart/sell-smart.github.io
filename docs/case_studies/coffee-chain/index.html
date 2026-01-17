@@ -7,9 +7,9 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Pavel Logačev">
-<meta name="dcterms.date" content="2024-02-20">
+<meta name="dcterms.date" content="2024-01-15">
 
-<title>Industrial Distributor — Demand-Based Pricing for 8,000 SKUs – Pavel Logačev</title>
+<title>National Coffee Chain — Elasticity-Based Price Increases – Pavel Logačev</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -116,12 +116,12 @@ ul.task-list li input[type="checkbox"] {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns">
 <div id="title-block-header-title" class="quarto-title page-columns page-full page-layout-full featured-image p-4" style="background-image: url(featured.png), url(featured.jpg), url(../featured.jpg);">
-<h1 class="title">Industrial Distributor — Demand-Based Pricing for 8,000 SKUs</h1>
-<p class="subtitle lead">Replacing cost-plus pricing with elasticity-driven optimization for a B2B supplier</p>
+<h1 class="title">National Coffee Chain — Elasticity-Based Price Increases</h1>
+<p class="subtitle lead">Smart price optimization using product and site-level elasticity</p>
     <div class="quarto-categories">
         <div class="quarto-category">Pricing</div>
-        <div class="quarto-category">B2B</div>
-        <div class="quarto-category">Forecasting</div>
+        <div class="quarto-category">Hospitality</div>
+        <div class="quarto-category">Elasticity</div>
       </div>
   </div>
 
@@ -139,7 +139,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Published</div>
     <div class="quarto-title-meta-contents">
-      <p class="date">February 20, 2024</p>
+      <p class="date">January 15, 2024</p>
     </div>
   </div>
   
@@ -158,7 +158,10 @@ ul.task-list li input[type="checkbox"] {
    
   <ul>
   <li><a href="#the-challenge" id="toc-the-challenge" class="nav-link active" data-scroll-target="#the-challenge">The Challenge</a></li>
-  <li><a href="#the-approach" id="toc-the-approach" class="nav-link" data-scroll-target="#the-approach">The Approach</a></li>
+  <li><a href="#the-approach" id="toc-the-approach" class="nav-link" data-scroll-target="#the-approach">The Approach</a>
+  <ul class="collapse">
+  <li><a href="#data-challenges" id="toc-data-challenges" class="nav-link" data-scroll-target="#data-challenges">Data Challenges</a></li>
+  </ul></li>
   <li><a href="#the-outcome" id="toc-the-outcome" class="nav-link" data-scroll-target="#the-outcome">The Outcome</a></li>
   <li><a href="#key-insight" id="toc-key-insight" class="nav-link" data-scroll-target="#key-insight">Key Insight</a></li>
   </ul>
@@ -179,33 +182,30 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="the-challenge" class="level2">
 <h2 class="anchored" data-anchor-id="the-challenge">The Challenge</h2>
-<p>A technical components distributor selling to manufacturers and repair shops had grown to 8,000+ SKUs through acquisition. Pricing was a patchwork: some products used cost-plus, others matched competitors, many hadn’t been reviewed in years. The sales team had broad discounting authority, leading to margin erosion on high-volume accounts.</p>
-<p>Leadership wanted to professionalize pricing but faced two constraints: sparse transaction data on the long tail (60% of SKUs sold fewer than 50 units/year) and a sales culture resistant to “black box” pricing.</p>
+<p>A national coffee chain needed to increase prices but wanted to do it intelligently — not blanket increases across the board. Previous price changes had been made without understanding which products or locations were most price-sensitive, leading to unpredictable volume impacts.</p>
 </section>
 <section id="the-approach" class="level2">
 <h2 class="anchored" data-anchor-id="the-approach">The Approach</h2>
-<p>I developed a hierarchical pricing model that worked despite data sparsity:</p>
+<p>Using POS transaction data, I estimated price elasticity at two levels:</p>
 <ul>
-<li><strong>Product hierarchy leverage:</strong> Estimated elasticity at the category and subcategory level, then shrunk individual SKU estimates toward these priors — allowing even low-volume items to get sensible prices</li>
-<li><strong>Customer segmentation:</strong> Identified price-sensitive transactional buyers vs.&nbsp;relationship accounts, enabling differentiated pricing without universal discounting</li>
-<li><strong>Willingness-to-pay signals:</strong> Incorporated quote-to-order conversion rates and discount request frequency as proxies for price sensitivity</li>
-<li><strong>Transparent recommendations:</strong> Every price change came with a confidence interval and plain-language explanation — “similar products show X% volume sensitivity” — to build sales team buy-in</li>
+<li><strong>Product-level elasticity:</strong> Identified which menu items customers were most and least sensitive to</li>
+<li><strong>Site-level elasticity:</strong> Measured how price sensitivity varied across locations</li>
 </ul>
+<p>This allowed for targeted recommendations: - Increase prices more aggressively on low-elasticity items - Protect high-elasticity traffic drivers - Re-tier sites based on local price sensitivity</p>
+<section id="data-challenges" class="level3">
+<h3 class="anchored" data-anchor-id="data-challenges">Data Challenges</h3>
+<p>The data wasn’t clean: - Outlier prices from manual overrides - Multiple price points appearing at the same site on the same day - Missing price data for many product-site combinations</p>
+<p>These required careful cleaning and validation before modeling.</p>
+</section>
 </section>
 <section id="the-outcome" class="level2">
 <h2 class="anchored" data-anchor-id="the-outcome">The Outcome</h2>
-<p>After 12 months:</p>
-<ul>
-<li><strong>8% average margin improvement</strong> across the catalog</li>
-<li><strong>15% reduction in ad-hoc discounting</strong> — sales team used model outputs as negotiation anchors</li>
-<li><strong>Long-tail monetization</strong> — identified 400+ SKUs that were significantly underpriced relative to alternatives</li>
-<li><strong>Reduced pricing workload</strong> — automated recommendations replaced quarterly manual reviews</li>
-</ul>
+<p>The model identified which products could absorb price increases with minimal volume loss, and which sites should move to different pricing tiers. This replaced gut-feel pricing with data-driven recommendations.</p>
 </section>
 <section id="key-insight" class="level2">
 <h2 class="anchored" data-anchor-id="key-insight">Key Insight</h2>
 <blockquote class="blockquote">
-<p>B2B pricing isn’t about finding the “right” price — it’s about giving sales teams defensible anchors. A model that explains its reasoning gets adopted. A model that just outputs numbers gets ignored or overridden.</p>
+<p>Not all price increases are equal. A 5% increase on a low-elasticity item might cost you nothing, while the same increase on a traffic driver could hurt footfall across the entire basket.</p>
 </blockquote>
 
 

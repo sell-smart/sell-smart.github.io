@@ -1,0 +1,31 @@
+---
+title: "Quick-Service Restaurant Chain — Transaction Decline Analysis"
+subtitle: "Disentangling economic factors from loyalty program changes"
+date: 2024-04-15
+categories: [Analysis, Hospitality, Causal Inference]
+---
+
+## The Challenge
+
+A quick-service restaurant chain was seeing declining transactions and needed to understand why. The timing was complicated: the decline coincided with both macroeconomic pressures (inflation, cost-of-living concerns) and changes to their loyalty program. Leadership needed to know which factor was driving the drop — the answer would determine whether to adjust pricing strategy or revisit the loyalty program changes.
+
+## The Approach
+
+I built competing models to isolate the effects:
+
+- **Model 1 — Loyalty indicators:** Included variables capturing the loyalty program changes and customer engagement metrics
+- **Model 2 — Macroeconomic indicators:** Used CPI, unemployment rates, and other economic signals
+
+By comparing model performance and coefficient significance, I could assess the relative contribution of each factor to the transaction decline.
+
+Additionally, I supported:
+- **Price optimization:** Similar to other hospitality engagements
+- **Site re-banding:** Clustering locations for appropriate pricing tiers
+
+## The Outcome
+
+The analysis provided clarity on the drivers of transaction decline, allowing the business to make informed decisions about both pricing and loyalty program strategy.
+
+## Key Insight
+
+> When multiple things change at once, you can't just look at the trend and pick your favorite explanation. Structured model comparison helps separate signal from narrative.

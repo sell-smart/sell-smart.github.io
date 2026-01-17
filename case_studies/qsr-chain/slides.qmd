@@ -1,0 +1,77 @@
+---
+title: "Quick-Service Restaurant Chain"
+subtitle: "Transaction Decline Analysis"
+format:
+  revealjs:
+    theme: [default, ../../assets/css/slides.scss]
+    navigation-mode: linear
+    controls: true
+    progress: true
+    center: true
+    hash: true
+    embed-resources: true
+    standalone: true
+---
+
+## The Challenge
+
+A **QSR chain** was seeing declining transactions. But why?
+
+::: {.incremental}
+- Macroeconomic pressures (inflation, cost-of-living)
+- Recent changes to loyalty program
+- Both happened around the same time
+- Leadership needed to know which factor was responsible
+:::
+
+---
+
+## The Approach
+
+Built **competing models** to isolate effects:
+
+::: {.incremental}
+- **Model 1:** Loyalty program indicators + customer engagement metrics
+- **Model 2:** Macroeconomic indicators (CPI, unemployment)
+- Compare model performance and coefficient significance
+:::
+
+---
+
+## Additional Work
+
+Beyond the decline analysis:
+
+::: {.incremental}
+- **Price optimization:** Menu-level elasticity estimation
+- **Site re-banding:** Cluster locations for pricing tiers
+:::
+
+---
+
+## The Outcome
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.metric-card}
+[Clarity]{.number}
+[On decline drivers]{.label}
+:::
+:::
+::: {.column width="50%"}
+::: {.metric-card}
+[Informed]{.number}
+[Strategy decisions]{.label}
+:::
+:::
+::::
+
+Analysis separated economic impact from loyalty program effects.
+
+---
+
+## Key Insight
+
+> When multiple things change at once, you can't just look at the trend and pick your favorite explanation.
+
+**Structured model comparison helps separate signal from narrative.**

@@ -1,0 +1,79 @@
+---
+title: "National Coffee Chain"
+subtitle: "Elasticity-Based Price Increases"
+format:
+  revealjs:
+    theme: [default, ../../assets/css/slides.scss]
+    navigation-mode: linear
+    controls: true
+    progress: true
+    center: true
+    hash: true
+    embed-resources: true
+    standalone: true
+---
+
+## The Challenge
+
+A **national coffee chain** needed to increase prices — but not blindly.
+
+::: {.incremental}
+- Previous increases were gut-feel, with unpredictable volume impacts
+- No understanding of which products or sites were price-sensitive
+- Needed a smarter approach
+:::
+
+---
+
+## The Approach
+
+Estimated **price elasticity at two levels** using POS transaction data:
+
+::: {.incremental}
+- **Product-level:** Which menu items are customers most/least sensitive to?
+- **Site-level:** How does price sensitivity vary by location?
+- **Re-tiering:** Move sites to appropriate pricing bands
+:::
+
+---
+
+## Data Challenges
+
+The data required significant cleaning:
+
+::: {.incremental}
+- Outlier prices from manual overrides
+- Multiple price points per site per day
+- Missing price data for many product-site combinations
+:::
+
+---
+
+## The Outcome
+
+:::: {.columns}
+::: {.column width="50%"}
+::: {.metric-card}
+[Targeted]{.number}
+[Price increases]{.label}
+:::
+:::
+::: {.column width="50%"}
+::: {.metric-card}
+[Re-tiered]{.number}
+[Site pricing bands]{.label}
+:::
+:::
+::::
+
+Replaced gut-feel pricing with data-driven recommendations.
+
+---
+
+## Key Insight
+
+> Not all price increases are equal.
+
+A 5% increase on a **low-elasticity item** might cost you nothing.
+
+The same increase on a **traffic driver** could hurt footfall across the entire basket.
