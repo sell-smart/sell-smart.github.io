@@ -57,11 +57,12 @@ website:
         aria-label: "Contact"
         href: contact.qmd
 
-format: 
+format:
   html:
     theme:
       light:
         - cosmo
+        - assets/css/custom.scss
     code-link: true
     pagetitle: "{{< meta title >}}"
     lightbox: true
