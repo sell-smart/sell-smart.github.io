@@ -1,6 +1,7 @@
 ---
 title: "National Coffee Chain — Elasticity-Based Price Increases"
 subtitle: "Smart price optimization using product and site-level elasticity"
+description: "How a national coffee chain used product and site-level elasticity to make smarter price increases while protecting traffic drivers."
 date: 2024-01-15
 categories: [Pricing, Hospitality, Elasticity]
 ---

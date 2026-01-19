@@ -1,6 +1,7 @@
 ---
 title: "B2B Building Supplies Distributor — Discount Consistency"
 subtitle: "Reducing margin erosion from erratic sales discounting"
+description: "How a B2B building supplies wholesaler standardized discounting to reduce margin erosion and create consistent customer experiences."
 date: 2024-03-15
 categories: [Pricing, B2B, Segmentation]
 ---

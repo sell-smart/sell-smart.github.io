@@ -1,6 +1,7 @@
 ---
 title: "Sports Retailer — Multi-Wave Price Optimization"
 subtitle: "Repeated optimization cycles with KVI protection and markdown optimization"
+description: "Multi-wave price optimization for a major sports retailer, including KVI protection and markdown optimization for end-of-life products."
 date: 2024-02-15
 categories: [Pricing, Retail, Elasticity]
 ---

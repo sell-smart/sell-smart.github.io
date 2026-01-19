@@ -1,6 +1,7 @@
 ---
 title: "Quick-Service Restaurant Chain — Transaction Decline Analysis"
 subtitle: "Disentangling economic factors from loyalty program changes"
+description: "Causal inference analysis separating macroeconomic factors from loyalty program changes driving transaction declines at a QSR chain."
 date: 2024-04-15
 categories: [Analysis, Hospitality, Causal Inference]
 ---

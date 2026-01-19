@@ -1,6 +1,7 @@
 ---
 title: "Pavel Logačev"
 subtitle: Pricing & Revenue Optimization Data Scientist
+description: "Pricing and revenue optimization data scientist based in Berlin. I build custom demand models, optimize prices, and deliver working solutions."
 image: assets/images/pavel.png
 about:
   template: trestles

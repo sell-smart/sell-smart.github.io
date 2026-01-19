@@ -1,6 +1,7 @@
 ---
 title: ""
 pagetitle: "Case Studies"
+description: "Real-world pricing and revenue optimization case studies. Coffee chain elasticity, sports retail optimization, B2B discount consistency, and QSR analysis."
 author: ""
 comments: false
 citation: false

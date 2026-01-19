@@ -11,6 +11,10 @@ website:
   description: "Pricing & Revenue Optimization Data Scientist"
   page-navigation: true
   back-to-top-navigation: true
+  open-graph:
+    image: assets/images/pavel.png
+  twitter-card:
+    image: assets/images/pavel.png
 
   navbar:
     right:

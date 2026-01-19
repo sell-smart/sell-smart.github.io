@@ -1,6 +1,7 @@
 ---
 title: ""
 pagetitle: "Profitable Pricing"
+description: "Learn how to set profitable prices. Common pricing mistakes, when to test prices, and strategies for optimizing margins with limited data."
 page-layout: full
 toc: false
 format: html

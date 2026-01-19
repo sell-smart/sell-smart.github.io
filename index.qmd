@@ -1,5 +1,6 @@
 ---
 pagetitle: "Pavel Logačev - Pricing & Revenue Optimization"
+description: "I help businesses set smarter prices and make data-driven decisions. Pricing and revenue optimization for retailers, B2B suppliers, and DTC brands."
 
 execute:
   freeze: false
