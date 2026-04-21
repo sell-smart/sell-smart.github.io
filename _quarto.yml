@@ -40,6 +40,8 @@ format:
     code-link: true
     pagetitle: "{{< meta title >}}"
     lightbox: true
+    include-in-header:
+      - _includes/ga4-tracking.html
 
 execute:
   freeze: auto
