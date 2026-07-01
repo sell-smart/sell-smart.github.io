@@ -21,6 +21,9 @@ website:
       - text: About
         aria-label: "About"
         href: about.qmd
+      - text: Services
+        aria-label: "Services"
+        href: services.qmd
       - text: Profitable Pricing
         aria-label: "Profitable Pricing"
         href: pricing.qmd

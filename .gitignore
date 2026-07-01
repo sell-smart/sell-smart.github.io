@@ -1,3 +1,5 @@
 /.quarto/
 .Rproj.user
 projects_confidential.md
+
+**/*.quarto_ipynb

@@ -1,0 +1,88 @@
+---
+title: "Services"
+pagetitle: "Pavel Logačev - Services"
+description: "Pricing and revenue optimization services: price optimization, demand forecasting, promotion and A/B testing, competitor benchmarking, and custom demand modeling."
+subtitle: "Pricing and revenue optimization, built around your data"
+page-layout: full
+header-includes: >
+  <link rel="stylesheet" href="assets/css/services.css">
+resources:
+  - assets/css/services.css
+---
+
+::: {.services-lead}
+I help retailers, B2B suppliers, and DTC brands set smarter prices and grow revenue — building models that make pricing decisions, not dashboards that sit unused. Every engagement is built around your data, your constraints, and the decision in front of you.
+:::
+
+## What I can help with
+
+::: {.service-grid}
+
+::: {.service-card}
+<span class="service-icon"><i class="bi bi-tags"></i></span>
+<h3>Price Optimization</h3>
+
+Find the prices that maximize margin or revenue — including willingness-to-pay modeling when you don't have clean sales data.
+:::
+
+::: {.service-card}
+<span class="service-icon"><i class="bi bi-graph-up-arrow"></i></span>
+<h3>Demand Forecasting</h3>
+
+Forecasts with honest uncertainty estimates, robust to limited history — for planning, inventory, and pricing decisions.
+:::
+
+::: {.service-card}
+<span class="service-icon"><i class="bi bi-diagram-3"></i></span>
+<h3>Promotions &amp; Experimentation</h3>
+
+A/B test design and analysis, promotion and discount impact, and causal inference for pricing when a clean test isn't possible.
+:::
+
+::: {.service-card}
+<span class="service-icon"><i class="bi bi-search"></i></span>
+<h3>Competitor &amp; Stockout Intelligence</h3>
+
+Benchmark against competitor prices from scraped or third-party data, and detect stockouts that quietly distort your demand signal.
+:::
+
+:::
+
+## What working together looks like
+
+::: {.process-grid}
+
+::: {.process-step}
+<span class="process-number">1</span>
+<h3>Understand</h3>
+
+I start with your business, your data, and the pricing decision you actually need to make — before touching a model.
+:::
+
+::: {.process-step}
+<span class="process-number">2</span>
+<h3>Model</h3>
+
+I build a model custom-fit to your context and designed for messy, real-world data — not an off-the-shelf black box.
+:::
+
+::: {.process-step}
+<span class="process-number">3</span>
+<h3>Deliver</h3>
+
+You get a working solution — pricing logic, files, or an API endpoint — that scales, not just a set of elasticities.
+:::
+
+:::
+
+## Ways to work together
+
+<ul class="engagement-list">
+<li><strong>Project-based</strong> — a defined piece of work with clear deliverables, from a one-off pricing study to a full pricing pipeline.</li>
+<li><strong>Embedded or via agency</strong> — working alongside your team, or through your agency, as an extra pair of hands on a pricing problem.</li>
+<li><strong>Advisory</strong> — reviewing existing pricing models and analyses, sanity-checking assumptions, and advising on methodology and next steps.</li>
+</ul>
+
+::: {.services-cta}
+Not sure which fits? [Get in touch](/contact.qmd) and tell me about your pricing challenge — I'll give you an honest view of whether and how I can help.
+:::

@@ -1,150 +1,38 @@
 [
   {
-    "objectID": "pricing.html",
-    "href": "pricing.html",
-    "title": "Pavel Logačev",
+    "objectID": "services.html",
+    "href": "services.html",
+    "title": "Services",
     "section": "",
-    "text": "Why Pricing Matters More Than You Think\n\n\n\n\n\nA 5% change in price often shifts profit more than a 20% change in sales volume.\nYet most Shopify stores spend more time tweaking ad campaigns than reviewing their prices.\nPricing isn’t about guessing what “feels right” — it’s about finding the balance between what customers are willing to pay and what keeps your margins healthy.\n\n\n\n\n\n\n\n\n\nCommon Pricing Mistakes\n\n\n\n\n\n\nCopying competitors blindly\nJust because another store charges $29.99 doesn’t mean you should. They may have different costs, suppliers, or customer bases.\n\nEquating more sales with more profit\nHigh volume can still mean thin margins — or even losses if discounts are too deep.\n\nIgnoring recurring customers\nRegular buyers notice price swings more than one‑time shoppers. Trust lost here is hard to rebuild.\n\nSkipping measurement\nIf you don’t track how price changes affect both sales and margin, you’re just guessing.\n\n\n\n\n\n\n\n\n\n\nWhen Price Testing Works\n\n\n\n\n\nPrice testing makes sense if: - Most of your customers are one‑time buyers\n- You have enough volume that differences show up quickly\n- You can split products or regions without confusing customers\nIn these cases, A/B tests or phased rollouts give you reliable signals.\n\n\n\n\n\n\n\n\n\nWhen You Can’t Test Directly\n\n\n\n\n\nTesting is risky when: - Customers buy repeatedly (they may feel cheated by price differences)\n- Sales numbers are too small to detect meaningful effects\nAlternatives: - Use controlled discounts to measure impact\n- Look for natural experiments (competitor price moves, seasonal demand shifts)\n- Monitor stockouts and promotions to see how sales respond\n\n\n\n\n\n\n\n\n\nWhat If You Have Very Little Data?\n\n\n\n\n\n\nBenchmark against competitor prices\nUse hierarchical or Bayesian models to borrow strength from similar products\nTrack every transaction carefully\nConsider bundling products to generate more observations\n\n\n\n\n\n\n\n\n\n\nHow do I know if I’m charging too much or too little?\n\n\n\n\n\nLook at both sales volume and contribution margin. A high margin with collapsing sales is as bad as high sales with no profit.\n\n\n\n\n\n\n\n\n\nCan I test different prices without losing customers?\n\n\n\n\n\nYes — with careful structuring (e.g. segmented promotions, A/B tests, or gradual rollouts). Even if you can’t run a formal test, you can analyze historical data.\n\n\n\n\n\n\n\n\n\nWhat if my products don’t sell regularly?\n\n\n\n\n\nUse methods that account for sparse sales data, like hierarchical or Bayesian demand models, so you can still estimate price sensitivity.\n\n\n\n\n\n\n\n\n\nShould I price at the variant or product level?\n\n\n\n\n\nUsually at the variant level if variants differ significantly in perceived value — but keep prices coherent across a product line to avoid confusing customers.\n\n\n\n\n\n\n\n\n\nHow do I figure out the right price if I don’t have much sales history?\n\n\n\n\n\nStart by looking at competitor prices and positioning — they tell you what customers expect. Then, track your own early sales closely. Even a handful of transactions can reveal whether customers are very sensitive to changes. For sparse data, Bayesian models or hierarchical approaches help you “borrow strength” across similar products.\n\n\n\n\n\n\n\n\n\nWhy do my sales jump when I discount — but profits don’t really improve?\n\n\n\n\n\nDiscounts often boost volume but erode margin. To see if they’re really working, measure the contribution margin (price minus variable costs) instead of just revenue. If the margin per unit shrinks faster than the volume grows, you’re losing money.\n\n\n\n\n\n\n\n\n\nShould I price each product variant separately, or keep them all the same?\n\n\n\n\n\nIf variants differ in quality, materials, or appeal, pricing them separately usually pays off. But don’t confuse customers: keep differences logical (e.g. +10 € for premium materials). When in doubt, start simple and test adjustments gradually.\n\n\n\n\n\n\n\n\n\nWhat’s the best way to track competitor prices without spending hours on it?\n\n\n\n\n\nYou can start manually with a short list of key competitors. For more products, automated scraping tools or specialized services can keep prices up‑to‑date. Even a simple weekly check can prevent you from drifting too far off market.\n\n\n\n\n\n\n\n\n\nHow do I know if raising prices will scare customers away?\n\n\n\n\n\nLook at how sales changed after past price moves. If you’ve never tested, start with small, targeted increases and monitor closely. You’ll often find that loyal customers care less about small price changes than you think — especially if the product solves a real problem.\n\n\n\n\n\n\n\n\n\nWhen is price testing acceptable?\n\n\n\n\n\nPrice testing works best if you have:\nNon‑recurring customers (so buyers don’t compare your old and new prices directly).\nLarge enough sales volume to detect meaningful changes within a few weeks.\nComparable product variants or regions where you can safely test different prices. In these cases, structured A/B tests or gradual rollouts give you reliable signals.\n\n\n\n\n\n\n\n\n\nWhat if I can’t test because most customers come back regularly?\n\n\n\n\n\nFor recurring customers, visible price swings can hurt trust. Instead of direct A/B testing:\nTest different discount magnitudes (e.g. 10% vs 15%) for specific campaigns.\nOffer time‑limited promotions that don’t reset the “normal” price in your customers’ minds.\nUse natural experiments (like competitor moves or supply changes) to learn indirectly.\n\n\n\n\n\n\n\n\n\nWhat if my sales volumes are too small for testing?\n\n\n\n\n\nIf you don’t have enough volume for formal tests:\nLean on competitor prices to anchor your range.\nUse Bayesian or hierarchical models to “borrow” insights from similar products.\nTrack even sparse data carefully: a few sales can still indicate if a product is highly price‑sensitive.\nConsider bundling or upsells to get better signals without needing huge volume.\n\n\n\n\n\n\n Back to top"
+    "text": "I help retailers, B2B suppliers, and DTC brands set smarter prices and grow revenue — building models that make pricing decisions, not dashboards that sit unused. Every engagement is built around your data, your constraints, and the decision in front of you."
   },
   {
-    "objectID": "contact.html",
-    "href": "contact.html",
+    "objectID": "services.html#what-i-can-help-with",
+    "href": "services.html#what-i-can-help-with",
+    "title": "Services",
+    "section": "What I can help with",
+    "text": "What I can help with\n\n\n\n\nPrice Optimization\n\nFind the prices that maximize margin or revenue — including willingness-to-pay modeling when you don’t have clean sales data.\n\n\n\n\nDemand Forecasting\n\nForecasts with honest uncertainty estimates, robust to limited history — for planning, inventory, and pricing decisions.\n\n\n\n\nPromotions & Experimentation\n\nA/B test design and analysis, promotion and discount impact, and causal inference for pricing when a clean test isn’t possible.\n\n\n\n\nCompetitor & Stockout Intelligence\n\nBenchmark against competitor prices from scraped or third-party data, and detect stockouts that quietly distort your demand signal."
+  },
+  {
+    "objectID": "services.html#what-working-together-looks-like",
+    "href": "services.html#what-working-together-looks-like",
+    "title": "Services",
+    "section": "What working together looks like",
+    "text": "What working together looks like\n\n\n1\n\nUnderstand\n\nI start with your business, your data, and the pricing decision you actually need to make — before touching a model.\n\n\n2\n\nModel\n\nI build a model custom-fit to your context and designed for messy, real-world data — not an off-the-shelf black box.\n\n\n3\n\nDeliver\n\nYou get a working solution — pricing logic, files, or an API endpoint — that scales, not just a set of elasticities."
+  },
+  {
+    "objectID": "services.html#ways-to-work-together",
+    "href": "services.html#ways-to-work-together",
+    "title": "Services",
+    "section": "Ways to work together",
+    "text": "Ways to work together\n\n\nProject-based — a defined piece of work with clear deliverables, from a one-off pricing study to a full pricing pipeline.\n\n\nEmbedded or via agency — working alongside your team, or through your agency, as an extra pair of hands on a pricing problem.\n\n\nAdvisory — reviewing existing pricing models and analyses, sanity-checking assumptions, and advising on methodology and next steps.\n\n\n\nNot sure which fits? Get in touch and tell me about your pricing challenge — I’ll give you an honest view of whether and how I can help."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
     "title": "Pavel Logačev",
     "section": "",
     "text": "Pavel Logačev, PhD\nTurning Complex Data into Profitable Decisions\n\nI help businesses set smarter prices and make decisions grounded in data — even when data is sparse, messy, or fragmented.\n\nIncrease revenue through optimized pricing\nGain reliable forecasts despite limited data\nMake confident decisions without relying on black-box tools\n\n\n\n\nSee What’s Possible\nShare your pricing challenge — I’ll show you a path forward.\n\n \n\n\nSend Message\n\n\n\n\n\n\n\n Back to top"
-  },
-  {
-    "objectID": "case_studies/qsr-chain/index.html",
-    "href": "case_studies/qsr-chain/index.html",
-    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
-    "section": "",
-    "text": "A quick-service restaurant chain was seeing declining transactions and needed to understand why. The timing was complicated: the decline coincided with both macroeconomic pressures (inflation, cost-of-living concerns) and changes to their loyalty program. Leadership needed to know which factor was driving the drop — the answer would determine whether to adjust pricing strategy or revisit the loyalty program changes."
-  },
-  {
-    "objectID": "case_studies/qsr-chain/index.html#the-challenge",
-    "href": "case_studies/qsr-chain/index.html#the-challenge",
-    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
-    "section": "",
-    "text": "A quick-service restaurant chain was seeing declining transactions and needed to understand why. The timing was complicated: the decline coincided with both macroeconomic pressures (inflation, cost-of-living concerns) and changes to their loyalty program. Leadership needed to know which factor was driving the drop — the answer would determine whether to adjust pricing strategy or revisit the loyalty program changes."
-  },
-  {
-    "objectID": "case_studies/qsr-chain/index.html#the-approach",
-    "href": "case_studies/qsr-chain/index.html#the-approach",
-    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
-    "section": "The Approach",
-    "text": "The Approach\nI built competing models to isolate the effects:\n\nModel 1 — Loyalty indicators: Included variables capturing the loyalty program changes and customer engagement metrics\nModel 2 — Macroeconomic indicators: Used CPI, unemployment rates, and other economic signals\n\nBy comparing model performance and coefficient significance, I could assess the relative contribution of each factor to the transaction decline.\nAdditionally, I supported: - Price optimization: Similar to other hospitality engagements - Site re-banding: Clustering locations for appropriate pricing tiers"
-  },
-  {
-    "objectID": "case_studies/qsr-chain/index.html#the-outcome",
-    "href": "case_studies/qsr-chain/index.html#the-outcome",
-    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
-    "section": "The Outcome",
-    "text": "The Outcome\nThe analysis provided clarity on the drivers of transaction decline, allowing the business to make informed decisions about both pricing and loyalty program strategy."
-  },
-  {
-    "objectID": "case_studies/qsr-chain/index.html#key-insight",
-    "href": "case_studies/qsr-chain/index.html#key-insight",
-    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
-    "section": "Key Insight",
-    "text": "Key Insight\n\nWhen multiple things change at once, you can’t just look at the trend and pick your favorite explanation. Structured model comparison helps separate signal from narrative."
-  },
-  {
-    "objectID": "case_studies/coffee-chain/index.html",
-    "href": "case_studies/coffee-chain/index.html",
-    "title": "National Coffee Chain — Elasticity-Based Price Increases",
-    "section": "",
-    "text": "A national coffee chain needed to increase prices but wanted to do it intelligently — not blanket increases across the board. Previous price changes had been made without understanding which products or locations were most price-sensitive, leading to unpredictable volume impacts."
-  },
-  {
-    "objectID": "case_studies/coffee-chain/index.html#the-challenge",
-    "href": "case_studies/coffee-chain/index.html#the-challenge",
-    "title": "National Coffee Chain — Elasticity-Based Price Increases",
-    "section": "",
-    "text": "A national coffee chain needed to increase prices but wanted to do it intelligently — not blanket increases across the board. Previous price changes had been made without understanding which products or locations were most price-sensitive, leading to unpredictable volume impacts."
-  },
-  {
-    "objectID": "case_studies/coffee-chain/index.html#the-approach",
-    "href": "case_studies/coffee-chain/index.html#the-approach",
-    "title": "National Coffee Chain — Elasticity-Based Price Increases",
-    "section": "The Approach",
-    "text": "The Approach\nUsing POS transaction data, I estimated price elasticity at two levels:\n\nProduct-level elasticity: Identified which menu items customers were most and least sensitive to\nSite-level elasticity: Measured how price sensitivity varied across locations\n\nThis allowed for targeted recommendations: - Increase prices more aggressively on low-elasticity items - Protect high-elasticity traffic drivers - Re-tier sites based on local price sensitivity\n\nData Challenges\nThe data wasn’t clean: - Outlier prices from manual overrides - Multiple price points appearing at the same site on the same day - Missing price data for many product-site combinations\nThese required careful cleaning and validation before modeling."
-  },
-  {
-    "objectID": "case_studies/coffee-chain/index.html#the-outcome",
-    "href": "case_studies/coffee-chain/index.html#the-outcome",
-    "title": "National Coffee Chain — Elasticity-Based Price Increases",
-    "section": "The Outcome",
-    "text": "The Outcome\nThe model identified which products could absorb price increases with minimal volume loss, and which sites should move to different pricing tiers. This replaced gut-feel pricing with data-driven recommendations."
-  },
-  {
-    "objectID": "case_studies/coffee-chain/index.html#key-insight",
-    "href": "case_studies/coffee-chain/index.html#key-insight",
-    "title": "National Coffee Chain — Elasticity-Based Price Increases",
-    "section": "Key Insight",
-    "text": "Key Insight\n\nNot all price increases are equal. A 5% increase on a low-elasticity item might cost you nothing, while the same increase on a traffic driver could hurt footfall across the entire basket."
-  },
-  {
-    "objectID": "blog/index.html",
-    "href": "blog/index.html",
-    "title": "Profitable Pricing",
-    "section": "",
-    "text": "Back to top"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Pavel Logačev",
-    "section": "",
-    "text": "Hi, I’m Pavel Logačev\n\nI help businesses optimize prices and grow revenue with data. That means building models that make pricing decisions — not dashboards that sit unused.\nWhether you’re a retailer, a B2B supplier, or a direct-to-consumer brand, I work with you (or your agency) to identify pricing opportunities, model demand, and implement pricing logic that scales.\nI don’t just hand you elasticities — I deliver working solutions.\nGet in touch if you’d like to work together."
-  },
-  {
-    "objectID": "about.html#what-i-do",
-    "href": "about.html#what-i-do",
-    "title": "Pavel Logačev",
-    "section": "What I do",
-    "text": "What I do\n\n\nFrom pricing guesswork to pricing strategy.\nI support clients with:\n\nPrice optimization (margin or revenue focused)\nWillingness-to-pay modeling — even without clean sales data\nDemand forecasting with uncertainty estimates\nStockout detection and adjustment\nCompetitor benchmarking from scraped or third-party data\nA/B test design and analysis\nCausal inference for pricing, marketing, and product decisions\n\nI help you go from messy historical data to a robust pricing process.\n\n\nBusiness-first. Technically fluent.\nI build models that are:\n\nCustom-fit to your context, not off-the-shelf\nDesigned for messy, real-world data\nDelivered as ready-to-use pricing logic, files, or API endpoints\n\nMy goal is always the same: help you charge the right price — confidently, repeatedly, and at scale.\nI’m based in Berlin and work with clients across Europe and North America.\nI speak English, German, and Russian."
-  },
-  {
-    "objectID": "case_studies/building-supplies-distributor/index.html",
-    "href": "case_studies/building-supplies-distributor/index.html",
-    "title": "B2B Building Supplies Distributor — Discount Consistency",
-    "section": "",
-    "text": "A building supplies wholesaler had a discount problem: sales reps were giving discounts that varied wildly — some far larger than necessary to close deals. This erratic discounting was eating into margins and creating inconsistent customer experiences. Customers doing similar business were getting very different treatment depending on which rep they worked with."
-  },
-  {
-    "objectID": "case_studies/building-supplies-distributor/index.html#the-challenge",
-    "href": "case_studies/building-supplies-distributor/index.html#the-challenge",
-    "title": "B2B Building Supplies Distributor — Discount Consistency",
-    "section": "",
-    "text": "A building supplies wholesaler had a discount problem: sales reps were giving discounts that varied wildly — some far larger than necessary to close deals. This erratic discounting was eating into margins and creating inconsistent customer experiences. Customers doing similar business were getting very different treatment depending on which rep they worked with."
-  },
-  {
-    "objectID": "case_studies/building-supplies-distributor/index.html#the-approach",
-    "href": "case_studies/building-supplies-distributor/index.html#the-approach",
-    "title": "B2B Building Supplies Distributor — Discount Consistency",
-    "section": "The Approach",
-    "text": "The Approach\nThe solution required understanding both customer value and product characteristics:\n\nCustomer segmentation: Grouped customers by relevant properties (size, loyalty, purchase patterns) to establish appropriate discount bands\nProduct segmentation: Categorized products to determine where discounts were justified vs. where they were being given away unnecessarily\n\nThe goal was to create clear guidelines that would standardize discounting behavior while still allowing flexibility where it made business sense."
-  },
-  {
-    "objectID": "case_studies/building-supplies-distributor/index.html#the-outcome",
-    "href": "case_studies/building-supplies-distributor/index.html#the-outcome",
-    "title": "B2B Building Supplies Distributor — Discount Consistency",
-    "section": "The Outcome",
-    "text": "The Outcome\nThe project delivered a framework for consistent discounting. However, measuring impact remains difficult: - Margin improvement is hard to isolate from other business changes - “Price consistency” doesn’t have a clean metric\nThe primary value was operational: giving the sales team clear guardrails and reducing the chaos of ad-hoc pricing decisions."
-  },
-  {
-    "objectID": "case_studies/building-supplies-distributor/index.html#key-insight",
-    "href": "case_studies/building-supplies-distributor/index.html#key-insight",
-    "title": "B2B Building Supplies Distributor — Discount Consistency",
-    "section": "Key Insight",
-    "text": "Key Insight\n\nIn B2B, the problem often isn’t finding the “right” price — it’s preventing the erosion that happens when every deal gets negotiated from scratch. Consistency builds trust with customers and protects margins."
-  },
-  {
-    "objectID": "case_studies/index.html",
-    "href": "case_studies/index.html",
-    "title": "Pavel Logačev",
-    "section": "",
-    "text": "National Coffee Chain\n\n\nElasticity-Based Price Increases\n\n\n\nPricing Hospitality Elasticity\n\n\n\n\n\nSports Retailer\n\n\nMulti-Wave Price Optimization\n\n\n\nPricing Retail KVI Protection\n\n\n\n\n\nB2B Building Supplies\n\n\nDiscount Consistency\n\n\n\nPricing B2B Segmentation\n\n\n\n\n\nQuick-Service Restaurant\n\n\nTransaction Decline Analysis\n\n\n\nAnalysis Hospitality Causal Inference\n\n\n\n\n\n\n\n×\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "case_studies/sports-retailer/index.html",
@@ -182,10 +70,150 @@
     "text": "Key Insight\n\nPrice optimization isn’t a one-time project. Markets shift, costs change, and competitor behavior evolves. Repeated optimization waves catch drift and compound improvements over time."
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
+    "objectID": "case_studies/index.html",
+    "href": "case_studies/index.html",
+    "title": "Pavel Logačev",
+    "section": "",
+    "text": "National Coffee Chain\n\n\nElasticity-Based Price Increases\n\n\n\nPricing Hospitality Elasticity\n\n\n\n\n\nSports Retailer\n\n\nMulti-Wave Price Optimization\n\n\n\nPricing Retail KVI Protection\n\n\n\n\n\nB2B Building Supplies\n\n\nDiscount Consistency\n\n\n\nPricing B2B Segmentation\n\n\n\n\n\nQuick-Service Restaurant\n\n\nTransaction Decline Analysis\n\n\n\nAnalysis Hospitality Causal Inference\n\n\n\n\n\n\n\n×\n\n\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "case_studies/building-supplies-distributor/index.html",
+    "href": "case_studies/building-supplies-distributor/index.html",
+    "title": "B2B Building Supplies Distributor — Discount Consistency",
+    "section": "",
+    "text": "A building supplies wholesaler had a discount problem: sales reps were giving discounts that varied wildly — some far larger than necessary to close deals. This erratic discounting was eating into margins and creating inconsistent customer experiences. Customers doing similar business were getting very different treatment depending on which rep they worked with."
+  },
+  {
+    "objectID": "case_studies/building-supplies-distributor/index.html#the-challenge",
+    "href": "case_studies/building-supplies-distributor/index.html#the-challenge",
+    "title": "B2B Building Supplies Distributor — Discount Consistency",
+    "section": "",
+    "text": "A building supplies wholesaler had a discount problem: sales reps were giving discounts that varied wildly — some far larger than necessary to close deals. This erratic discounting was eating into margins and creating inconsistent customer experiences. Customers doing similar business were getting very different treatment depending on which rep they worked with."
+  },
+  {
+    "objectID": "case_studies/building-supplies-distributor/index.html#the-approach",
+    "href": "case_studies/building-supplies-distributor/index.html#the-approach",
+    "title": "B2B Building Supplies Distributor — Discount Consistency",
+    "section": "The Approach",
+    "text": "The Approach\nThe solution required understanding both customer value and product characteristics:\n\nCustomer segmentation: Grouped customers by relevant properties (size, loyalty, purchase patterns) to establish appropriate discount bands\nProduct segmentation: Categorized products to determine where discounts were justified vs. where they were being given away unnecessarily\n\nThe goal was to create clear guidelines that would standardize discounting behavior while still allowing flexibility where it made business sense."
+  },
+  {
+    "objectID": "case_studies/building-supplies-distributor/index.html#the-outcome",
+    "href": "case_studies/building-supplies-distributor/index.html#the-outcome",
+    "title": "B2B Building Supplies Distributor — Discount Consistency",
+    "section": "The Outcome",
+    "text": "The Outcome\nThe project delivered a framework for consistent discounting. However, measuring impact remains difficult: - Margin improvement is hard to isolate from other business changes - “Price consistency” doesn’t have a clean metric\nThe primary value was operational: giving the sales team clear guardrails and reducing the chaos of ad-hoc pricing decisions."
+  },
+  {
+    "objectID": "case_studies/building-supplies-distributor/index.html#key-insight",
+    "href": "case_studies/building-supplies-distributor/index.html#key-insight",
+    "title": "B2B Building Supplies Distributor — Discount Consistency",
+    "section": "Key Insight",
+    "text": "Key Insight\n\nIn B2B, the problem often isn’t finding the “right” price — it’s preventing the erosion that happens when every deal gets negotiated from scratch. Consistency builds trust with customers and protects margins."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Pavel Logačev",
+    "section": "",
+    "text": "Hi, I’m Pavel Logačev\n\nI help businesses optimize prices and grow revenue with data. That means building models that make pricing decisions — not dashboards that sit unused.\nWhether you’re a retailer, a B2B supplier, or a direct-to-consumer brand, I work with you (or your agency) to identify pricing opportunities, model demand, and implement pricing logic that scales.\nI don’t just hand you elasticities — I deliver working solutions.\nGet in touch if you’d like to work together."
+  },
+  {
+    "objectID": "about.html#what-i-do",
+    "href": "about.html#what-i-do",
+    "title": "Pavel Logačev",
+    "section": "What I do",
+    "text": "What I do\n\n\nFrom pricing guesswork to pricing strategy.\nI support clients with:\n\nPrice optimization (margin or revenue focused)\nWillingness-to-pay modeling — even without clean sales data\nDemand forecasting with uncertainty estimates\nStockout detection and adjustment\nCompetitor benchmarking from scraped or third-party data\nA/B test design and analysis\nCausal inference for pricing, marketing, and product decisions\n\nI help you go from messy historical data to a robust pricing process.\n\n\nBusiness-first. Technically fluent.\nI build models that are:\n\nCustom-fit to your context, not off-the-shelf\nDesigned for messy, real-world data\nDelivered as ready-to-use pricing logic, files, or API endpoints\n\nMy goal is always the same: help you charge the right price — confidently, repeatedly, and at scale.\nI’m based in Berlin and work with clients across Europe and North America.\nI speak English, German, and Russian."
+  },
+  {
+    "objectID": "blog/index.html",
+    "href": "blog/index.html",
+    "title": "Profitable Pricing",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "case_studies/coffee-chain/index.html",
+    "href": "case_studies/coffee-chain/index.html",
+    "title": "National Coffee Chain — Elasticity-Based Price Increases",
+    "section": "",
+    "text": "A national coffee chain needed to increase prices but wanted to do it intelligently — not blanket increases across the board. Previous price changes had been made without understanding which products or locations were most price-sensitive, leading to unpredictable volume impacts."
+  },
+  {
+    "objectID": "case_studies/coffee-chain/index.html#the-challenge",
+    "href": "case_studies/coffee-chain/index.html#the-challenge",
+    "title": "National Coffee Chain — Elasticity-Based Price Increases",
+    "section": "",
+    "text": "A national coffee chain needed to increase prices but wanted to do it intelligently — not blanket increases across the board. Previous price changes had been made without understanding which products or locations were most price-sensitive, leading to unpredictable volume impacts."
+  },
+  {
+    "objectID": "case_studies/coffee-chain/index.html#the-approach",
+    "href": "case_studies/coffee-chain/index.html#the-approach",
+    "title": "National Coffee Chain — Elasticity-Based Price Increases",
+    "section": "The Approach",
+    "text": "The Approach\nUsing POS transaction data, I estimated price elasticity at two levels:\n\nProduct-level elasticity: Identified which menu items customers were most and least sensitive to\nSite-level elasticity: Measured how price sensitivity varied across locations\n\nThis allowed for targeted recommendations: - Increase prices more aggressively on low-elasticity items - Protect high-elasticity traffic drivers - Re-tier sites based on local price sensitivity\n\nData Challenges\nThe data wasn’t clean: - Outlier prices from manual overrides - Multiple price points appearing at the same site on the same day - Missing price data for many product-site combinations\nThese required careful cleaning and validation before modeling."
+  },
+  {
+    "objectID": "case_studies/coffee-chain/index.html#the-outcome",
+    "href": "case_studies/coffee-chain/index.html#the-outcome",
+    "title": "National Coffee Chain — Elasticity-Based Price Increases",
+    "section": "The Outcome",
+    "text": "The Outcome\nThe model identified which products could absorb price increases with minimal volume loss, and which sites should move to different pricing tiers. This replaced gut-feel pricing with data-driven recommendations."
+  },
+  {
+    "objectID": "case_studies/coffee-chain/index.html#key-insight",
+    "href": "case_studies/coffee-chain/index.html#key-insight",
+    "title": "National Coffee Chain — Elasticity-Based Price Increases",
+    "section": "Key Insight",
+    "text": "Key Insight\n\nNot all price increases are equal. A 5% increase on a low-elasticity item might cost you nothing, while the same increase on a traffic driver could hurt footfall across the entire basket."
+  },
+  {
+    "objectID": "case_studies/qsr-chain/index.html",
+    "href": "case_studies/qsr-chain/index.html",
+    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
+    "section": "",
+    "text": "A quick-service restaurant chain was seeing declining transactions and needed to understand why. The timing was complicated: the decline coincided with both macroeconomic pressures (inflation, cost-of-living concerns) and changes to their loyalty program. Leadership needed to know which factor was driving the drop — the answer would determine whether to adjust pricing strategy or revisit the loyalty program changes."
+  },
+  {
+    "objectID": "case_studies/qsr-chain/index.html#the-challenge",
+    "href": "case_studies/qsr-chain/index.html#the-challenge",
+    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
+    "section": "",
+    "text": "A quick-service restaurant chain was seeing declining transactions and needed to understand why. The timing was complicated: the decline coincided with both macroeconomic pressures (inflation, cost-of-living concerns) and changes to their loyalty program. Leadership needed to know which factor was driving the drop — the answer would determine whether to adjust pricing strategy or revisit the loyalty program changes."
+  },
+  {
+    "objectID": "case_studies/qsr-chain/index.html#the-approach",
+    "href": "case_studies/qsr-chain/index.html#the-approach",
+    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
+    "section": "The Approach",
+    "text": "The Approach\nI built competing models to isolate the effects:\n\nModel 1 — Loyalty indicators: Included variables capturing the loyalty program changes and customer engagement metrics\nModel 2 — Macroeconomic indicators: Used CPI, unemployment rates, and other economic signals\n\nBy comparing model performance and coefficient significance, I could assess the relative contribution of each factor to the transaction decline.\nAdditionally, I supported: - Price optimization: Similar to other hospitality engagements - Site re-banding: Clustering locations for appropriate pricing tiers"
+  },
+  {
+    "objectID": "case_studies/qsr-chain/index.html#the-outcome",
+    "href": "case_studies/qsr-chain/index.html#the-outcome",
+    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
+    "section": "The Outcome",
+    "text": "The Outcome\nThe analysis provided clarity on the drivers of transaction decline, allowing the business to make informed decisions about both pricing and loyalty program strategy."
+  },
+  {
+    "objectID": "case_studies/qsr-chain/index.html#key-insight",
+    "href": "case_studies/qsr-chain/index.html#key-insight",
+    "title": "Quick-Service Restaurant Chain — Transaction Decline Analysis",
+    "section": "Key Insight",
+    "text": "Key Insight\n\nWhen multiple things change at once, you can’t just look at the trend and pick your favorite explanation. Structured model comparison helps separate signal from narrative."
+  },
+  {
+    "objectID": "contact.html",
+    "href": "contact.html",
     "title": "Pavel Logačev",
     "section": "",
     "text": "Pavel Logačev, PhD\nTurning Complex Data into Profitable Decisions\n\nI help businesses set smarter prices and make decisions grounded in data — even when data is sparse, messy, or fragmented.\n\nIncrease revenue through optimized pricing\nGain reliable forecasts despite limited data\nMake confident decisions without relying on black-box tools\n\n\n\n\nSee What’s Possible\nShare your pricing challenge — I’ll show you a path forward.\n\n \n\n\nSend Message\n\n\n\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "pricing.html",
+    "href": "pricing.html",
+    "title": "Pavel Logačev",
+    "section": "",
+    "text": "NoneWhy Pricing Matters More Than You Think\n\n\n\n\n\nA 5% change in price often shifts profit more than a 20% change in sales volume.\nYet most Shopify stores spend more time tweaking ad campaigns than reviewing their prices.\nPricing isn’t about guessing what “feels right” — it’s about finding the balance between what customers are willing to pay and what keeps your margins healthy.\n\n\n\n\n\n\n\n\n\nNoneCommon Pricing Mistakes\n\n\n\n\n\n\nCopying competitors blindly\nJust because another store charges $29.99 doesn’t mean you should. They may have different costs, suppliers, or customer bases.\n\nEquating more sales with more profit\nHigh volume can still mean thin margins — or even losses if discounts are too deep.\n\nIgnoring recurring customers\nRegular buyers notice price swings more than one‑time shoppers. Trust lost here is hard to rebuild.\n\nSkipping measurement\nIf you don’t track how price changes affect both sales and margin, you’re just guessing.\n\n\n\n\n\n\n\n\n\n\nNoneWhen Price Testing Works\n\n\n\n\n\nPrice testing makes sense if: - Most of your customers are one‑time buyers\n- You have enough volume that differences show up quickly\n- You can split products or regions without confusing customers\nIn these cases, A/B tests or phased rollouts give you reliable signals.\n\n\n\n\n\n\n\n\n\nNoneWhen You Can’t Test Directly\n\n\n\n\n\nTesting is risky when: - Customers buy repeatedly (they may feel cheated by price differences)\n- Sales numbers are too small to detect meaningful effects\nAlternatives: - Use controlled discounts to measure impact\n- Look for natural experiments (competitor price moves, seasonal demand shifts)\n- Monitor stockouts and promotions to see how sales respond\n\n\n\n\n\n\n\n\n\nNoneWhat If You Have Very Little Data?\n\n\n\n\n\n\nBenchmark against competitor prices\nUse hierarchical or Bayesian models to borrow strength from similar products\nTrack every transaction carefully\nConsider bundling products to generate more observations\n\n\n\n\n\n\n\n\n\n\nNoneHow do I know if I’m charging too much or too little?\n\n\n\n\n\nLook at both sales volume and contribution margin. A high margin with collapsing sales is as bad as high sales with no profit.\n\n\n\n\n\n\n\n\n\nNoneCan I test different prices without losing customers?\n\n\n\n\n\nYes — with careful structuring (e.g. segmented promotions, A/B tests, or gradual rollouts). Even if you can’t run a formal test, you can analyze historical data.\n\n\n\n\n\n\n\n\n\nNoneWhat if my products don’t sell regularly?\n\n\n\n\n\nUse methods that account for sparse sales data, like hierarchical or Bayesian demand models, so you can still estimate price sensitivity.\n\n\n\n\n\n\n\n\n\nNoneShould I price at the variant or product level?\n\n\n\n\n\nUsually at the variant level if variants differ significantly in perceived value — but keep prices coherent across a product line to avoid confusing customers.\n\n\n\n\n\n\n\n\n\nNoneHow do I figure out the right price if I don’t have much sales history?\n\n\n\n\n\nStart by looking at competitor prices and positioning — they tell you what customers expect. Then, track your own early sales closely. Even a handful of transactions can reveal whether customers are very sensitive to changes. For sparse data, Bayesian models or hierarchical approaches help you “borrow strength” across similar products.\n\n\n\n\n\n\n\n\n\nNoneWhy do my sales jump when I discount — but profits don’t really improve?\n\n\n\n\n\nDiscounts often boost volume but erode margin. To see if they’re really working, measure the contribution margin (price minus variable costs) instead of just revenue. If the margin per unit shrinks faster than the volume grows, you’re losing money.\n\n\n\n\n\n\n\n\n\nNoneShould I price each product variant separately, or keep them all the same?\n\n\n\n\n\nIf variants differ in quality, materials, or appeal, pricing them separately usually pays off. But don’t confuse customers: keep differences logical (e.g. +10 € for premium materials). When in doubt, start simple and test adjustments gradually.\n\n\n\n\n\n\n\n\n\nNoneWhat’s the best way to track competitor prices without spending hours on it?\n\n\n\n\n\nYou can start manually with a short list of key competitors. For more products, automated scraping tools or specialized services can keep prices up‑to‑date. Even a simple weekly check can prevent you from drifting too far off market.\n\n\n\n\n\n\n\n\n\nNoneHow do I know if raising prices will scare customers away?\n\n\n\n\n\nLook at how sales changed after past price moves. If you’ve never tested, start with small, targeted increases and monitor closely. You’ll often find that loyal customers care less about small price changes than you think — especially if the product solves a real problem.\n\n\n\n\n\n\n\n\n\nNoneWhen is price testing acceptable?\n\n\n\n\n\nPrice testing works best if you have:\nNon‑recurring customers (so buyers don’t compare your old and new prices directly).\nLarge enough sales volume to detect meaningful changes within a few weeks.\nComparable product variants or regions where you can safely test different prices. In these cases, structured A/B tests or gradual rollouts give you reliable signals.\n\n\n\n\n\n\n\n\n\nNoneWhat if I can’t test because most customers come back regularly?\n\n\n\n\n\nFor recurring customers, visible price swings can hurt trust. Instead of direct A/B testing:\nTest different discount magnitudes (e.g. 10% vs 15%) for specific campaigns.\nOffer time‑limited promotions that don’t reset the “normal” price in your customers’ minds.\nUse natural experiments (like competitor moves or supply changes) to learn indirectly.\n\n\n\n\n\n\n\n\n\nNoneWhat if my sales volumes are too small for testing?\n\n\n\n\n\nIf you don’t have enough volume for formal tests:\nLean on competitor prices to anchor your range.\nUse Bayesian or hierarchical models to “borrow” insights from similar products.\nTrack even sparse data carefully: a few sales can still indicate if a product is highly price‑sensitive.\nConsider bundling or upsells to get better signals without needing huge volume.\n\n\n\n\n\n\n Back to top"
   }
 ]
