@@ -4,28 +4,7 @@
     "href": "services.html",
     "title": "Services",
     "section": "",
-    "text": "I help retailers, B2B suppliers, and DTC brands set smarter prices and grow revenue — building models that make pricing decisions, not dashboards that sit unused. Every engagement is built around your data, your constraints, and the decision in front of you."
-  },
-  {
-    "objectID": "services.html#what-i-can-help-with",
-    "href": "services.html#what-i-can-help-with",
-    "title": "Services",
-    "section": "What I can help with",
-    "text": "What I can help with\n\n\n\n\nPrice Optimization\n\nFind the prices that maximize margin or revenue — including willingness-to-pay modeling when you don’t have clean sales data.\n\n\n\n\nDemand Forecasting\n\nForecasts with honest uncertainty estimates, robust to limited history — for planning, inventory, and pricing decisions.\n\n\n\n\nPromotions & Experimentation\n\nA/B test design and analysis, promotion and discount impact, and causal inference for pricing when a clean test isn’t possible.\n\n\n\n\nCompetitor & Stockout Intelligence\n\nBenchmark against competitor prices from scraped or third-party data, and detect stockouts that quietly distort your demand signal."
-  },
-  {
-    "objectID": "services.html#what-working-together-looks-like",
-    "href": "services.html#what-working-together-looks-like",
-    "title": "Services",
-    "section": "What working together looks like",
-    "text": "What working together looks like\n\n\n1\n\nUnderstand\n\nI start with your business, your data, and the pricing decision you actually need to make — before touching a model.\n\n\n2\n\nModel\n\nI build a model custom-fit to your context and designed for messy, real-world data — not an off-the-shelf black box.\n\n\n3\n\nDeliver\n\nYou get a working solution — pricing logic, files, or an API endpoint — that scales, not just a set of elasticities."
-  },
-  {
-    "objectID": "services.html#ways-to-work-together",
-    "href": "services.html#ways-to-work-together",
-    "title": "Services",
-    "section": "Ways to work together",
-    "text": "Ways to work together\n\n\nProject-based — a defined piece of work with clear deliverables, from a one-off pricing study to a full pricing pipeline.\n\n\nEmbedded or via agency — working alongside your team, or through your agency, as an extra pair of hands on a pricing problem.\n\n\nAdvisory — reviewing existing pricing models and analyses, sanity-checking assumptions, and advising on methodology and next steps.\n\n\n\nNot sure which fits? Get in touch and tell me about your pricing challenge — I’ll give you an honest view of whether and how I can help."
+    "text": "I help retailers, B2B suppliers, and DTC brands set smarter prices and grow revenue — building models that make pricing decisions, not dashboards that sit unused. Every engagement is built around your data, your constraints, and the decision in front of you.\n\n\n\n\n\n\nPromotion Incrementality Audit\n\n\nHow much of your promotion revenue was actually incremental?\n\n\n\nPromotions Incrementality Causal Inference\n\n\n\n\n\n\n\n×\n\n\n\n\n\n\n\n\n\n Back to top"
   },
   {
     "objectID": "index.html",
