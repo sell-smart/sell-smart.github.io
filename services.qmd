@@ -99,6 +99,9 @@ I help retailers, B2B suppliers, and DTC brands set smarter prices and grow reve
   height: min(96vh, calc(96vw * 9 / 16));
   max-width: none;
   position: relative;
+  background: #000;
+  border-radius: 8px;
+  overflow: hidden;
 }
 
 .slides-modal iframe {
@@ -106,6 +109,40 @@ I help retailers, B2B suppliers, and DTC brands set smarter prices and grow reve
   height: 100%;
   border: none;
   border-radius: 8px;
+  opacity: 0;
+  transition: opacity 0.25s ease;
+}
+
+.slides-modal iframe.ready {
+  opacity: 1;
+}
+
+/* cover shown while the embedded deck initializes, so its brief
+   loading/thumbnail state never flashes through */
+.slides-loading {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  pointer-events: none;
+}
+
+.slides-loading.hidden {
+  display: none;
+}
+
+.slides-loading .spinner {
+  width: 34px;
+  height: 34px;
+  border: 3px solid rgba(255,255,255,0.25);
+  border-top-color: #fff;
+  border-radius: 50%;
+  animation: slides-spin 0.8s linear infinite;
+}
+
+@keyframes slides-spin {
+  to { transform: rotate(360deg); }
 }
 
 .slides-modal-close {
@@ -151,20 +188,43 @@ I help retailers, B2B suppliers, and DTC brands set smarter prices and grow reve
 <div class="slides-modal" id="slidesModal">
 <div class="slides-modal-content">
 <button class="slides-modal-close" onclick="closeSlides()">×</button>
+<div class="slides-loading" id="slidesLoading"><div class="spinner"></div></div>
 <iframe id="slidesFrame" src=""></iframe>
 </div>
 </div>
 
 <script>
+let _slidesRevealTimer = null;
+
 function openSlides(url) {
-  document.getElementById('slidesFrame').src = url;
+  const frame = document.getElementById('slidesFrame');
+  const loading = document.getElementById('slidesLoading');
+  // Keep the deck hidden behind the spinner until it has loaded and settled,
+  // so the deck's brief loading/thumbnail state never flashes.
+  frame.classList.remove('ready');
+  loading.classList.remove('hidden');
+  clearTimeout(_slidesRevealTimer);
+  const reveal = function() {
+    clearTimeout(_slidesRevealTimer);
+    frame.classList.add('ready');
+    loading.classList.add('hidden');
+  };
+  frame.onload = function() {
+    clearTimeout(_slidesRevealTimer);
+    _slidesRevealTimer = setTimeout(reveal, 350);
+  };
+  _slidesRevealTimer = setTimeout(reveal, 1600); // fallback if onload is slow
+  frame.src = url;
   document.getElementById('slidesModal').classList.add('active');
   document.body.style.overflow = 'hidden';
 }
 
 function closeSlides() {
+  const frame = document.getElementById('slidesFrame');
+  clearTimeout(_slidesRevealTimer);
   document.getElementById('slidesModal').classList.remove('active');
-  document.getElementById('slidesFrame').src = '';
+  frame.classList.remove('ready');
+  frame.src = '';
   document.body.style.overflow = '';
 }
 
