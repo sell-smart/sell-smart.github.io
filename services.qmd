@@ -94,9 +94,10 @@ I help retailers, B2B suppliers, and DTC brands set smarter prices and grow reve
 }
 
 .slides-modal-content {
-  width: 90%;
-  height: 85%;
-  max-width: 1200px;
+  /* largest 16:9 box that fits the viewport, so the deck fills it */
+  width: min(96vw, calc(96vh * 16 / 9));
+  height: min(96vh, calc(96vw * 9 / 16));
+  max-width: none;
   position: relative;
 }
 
