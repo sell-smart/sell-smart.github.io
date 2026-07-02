@@ -3,6 +3,8 @@ project:
   output-dir: docs
   resources:
     - CNAME
+    - google80633a22d46b507f.html
+    - case_studies/*/slides.html
   render:
     - "**/*.qmd"
     - "!**/slides.qmd"

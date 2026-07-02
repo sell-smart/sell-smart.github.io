@@ -11,6 +11,8 @@ format:
     hash: true
     embed-resources: true
     standalone: true
+    include-in-header:
+      - ../../_includes/ga4-tracking.html
 ---
 
 ## The Challenge

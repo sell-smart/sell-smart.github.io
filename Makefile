@@ -1,6 +1,6 @@
 .PHONY: all render slides clean preview
 
-all: render slides
+all: slides render
 
 render:
 	quarto render
@@ -10,10 +10,8 @@ slides:
 	quarto render case_studies/sports-retailer/slides.qmd
 	quarto render case_studies/building-supplies-distributor/slides.qmd
 	quarto render case_studies/qsr-chain/slides.qmd
-	cp case_studies/coffee-chain/slides.html docs/case_studies/coffee-chain/
-	cp case_studies/sports-retailer/slides.html docs/case_studies/sports-retailer/
-	cp case_studies/building-supplies-distributor/slides.html docs/case_studies/building-supplies-distributor/
-	cp case_studies/qsr-chain/slides.html docs/case_studies/qsr-chain/
+	# slides.html are declared as resources in _quarto.yml, so the site
+	# render (make render) copies them into docs/ — no manual cp needed.
 
 preview:
 	quarto preview
