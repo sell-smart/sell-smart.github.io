@@ -33,7 +33,7 @@ section#see-whats-possible form textarea {
 
 /* Submit button inside the card */
 section#see-whats-possible form button {
-  background: #0077b5 !important;
+  background: #E5484D !important;
   border: none !important;
   color: white !important;
   font-size: 1rem !important;
@@ -44,7 +44,7 @@ section#see-whats-possible form button {
 }
 
 section#see-whats-possible form button:hover {
-  background: #005983 !important;
+  background: #c93c41 !important;
 }
 
 

@@ -41,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-ed96de9b727972fe78a7b5d16c58bf87.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-63f938dd44239475a053435d2be3e879.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-9711859624d1f44f9811b6d6fae5ac55.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +69,10 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<!-- Web fonts matching the offer slide decks: Space Grotesk (display) + Archivo (body) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;600;700&amp;family=Space+Grotesk:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
 <!-- Google tag (gtag.js) -->
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-191JR4FPL2"></script>
 <script>
@@ -117,10 +121,6 @@ ul.task-list li input[type="checkbox"] {
   <li class="nav-item">
     <a class="nav-link active" href="./services.html" aria-current="page"> 
 <span class="menu-text">Services</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="./pricing.html"> 
-<span class="menu-text">Profitable Pricing</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./case_studies/index.html"> 
@@ -196,7 +196,7 @@ ul.task-list li input[type="checkbox"] {
 }
 
 .case-study-card {
-  border: 2px solid #0077b5;
+  border: 2px solid #E5484D;
   border-radius: 8px;
   cursor: pointer;
   transition: box-shadow 0.2s, transform 0.2s;
@@ -212,7 +212,7 @@ ul.task-list li input[type="checkbox"] {
 }
 
 .case-study-card h3 {
-  color: #0077b5;
+  color: #E5484D;
   margin: 0 0 0.5rem 0;
   font-size: 1.3rem;
   font-weight: 600;
@@ -332,16 +332,68 @@ ul.task-list li input[type="checkbox"] {
 </style>
 <div class="case-study-grid">
 <div class="case-study-item">
+<div class="case-study-card" onclick="openSlides('offers/price-optimization.html')">
+<h3 class="anchored">
+Price Optimization
+</h3>
+<p class="subtitle">
+Find the price that maximizes profit — measured, not guessed.
+</p>
+</div>
+<div class="tags">
+<p><span class="tag">Pricing</span> <span class="tag">Elasticity</span> <span class="tag">Experimentation</span></p>
+</div>
+</div>
+<div class="case-study-item">
 <div class="case-study-card" onclick="openSlides('offers/promotion-incrementality-audit.html')">
 <h3 class="anchored">
 Promotion Incrementality Audit
 </h3>
 <p class="subtitle">
-How much of your promotion revenue was actually incremental?
+How much of your promotion revenue would have happened anyway, at full price?
 </p>
 </div>
 <div class="tags">
 <p><span class="tag">Promotions</span> <span class="tag">Incrementality</span> <span class="tag">Causal Inference</span></p>
+</div>
+</div>
+<div class="case-study-item">
+<div class="case-study-card" onclick="openSlides('offers/markdown-clearance-optimization.html')">
+<h3 class="anchored">
+Markdown &amp; Clearance Optimization
+</h3>
+<p class="subtitle">
+Clear the stock that has to move, while losing the least margin.
+</p>
+</div>
+<div class="tags">
+<p><span class="tag">Markdown</span> <span class="tag">Clearance</span> <span class="tag">Inventory</span></p>
+</div>
+</div>
+<div class="case-study-item">
+<div class="case-study-card" onclick="openSlides('offers/ad-spend-incrementality.html')">
+<h3 class="anchored">
+Ad Spend Incrementality
+</h3>
+<p class="subtitle">
+How many of your sales would have happened without the ad spend?
+</p>
+</div>
+<div class="tags">
+<p><span class="tag">Marketing</span> <span class="tag">Incrementality</span> <span class="tag">Attribution</span></p>
+</div>
+</div>
+<div class="case-study-item">
+<div class="case-study-card" onclick="openSlides('offers/margin-leakage.html')">
+<h3 class="anchored">
+Margin Leakage
+</h3>
+<p class="subtitle">
+Follow every dollar from gross sale to what you actually keep — and see where it leaks.
+</p>
+</div>
+<div class="tags">
+<p><span class="tag">Margin</span> <span class="tag">Profitability</span> <span class="tag">Diagnostics</span></p>
 </div>
 </div>
 </div>

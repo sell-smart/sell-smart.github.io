@@ -1,8 +1,8 @@
 /*-- scss:defaults --*/
-$presentation-heading-color: #0077b5;
+$presentation-heading-color: #E5484D;
 $body-color: #333;
-$link-color: #0077b5;
-$code-color: #0077b5;
+$link-color: #E5484D;
+$code-color: #E5484D;
 
 /*-- scss:rules --*/
 .reveal {
@@ -12,16 +12,16 @@ $code-color: #0077b5;
 .reveal h1, .reveal h2, .reveal h3 {
   font-weight: 600;
   text-transform: none;
-  color: #0077b5;
+  color: #E5484D;
 }
 
 .reveal .slides > section.title-slide h1,
 .reveal .slides > section.title-slide .title {
-  color: #0077b5;
+  color: #E5484D;
 }
 
 .reveal h2 {
-  border-bottom: 3px solid #0077b5;
+  border-bottom: 3px solid #E5484D;
   padding-bottom: 0.3em;
   margin-bottom: 0.8em;
 }
@@ -43,7 +43,7 @@ $code-color: #0077b5;
 .metric-card .number {
   font-size: 2.5em;
   font-weight: 700;
-  color: #0077b5;
+  color: #E5484D;
   display: block;
 }
 
@@ -56,14 +56,14 @@ $code-color: #0077b5;
 
 /* Icon styling */
 .reveal i.fa, .reveal i.fas, .reveal i.fab {
-  color: #0077b5;
+  color: #E5484D;
   margin-right: 0.3em;
 }
 
 /* Blockquote styling */
 .reveal blockquote {
   background: #f8f9fa;
-  border-left: 5px solid #0077b5;
+  border-left: 5px solid #E5484D;
   padding: 1em 1.5em;
   font-style: italic;
   box-shadow: 0 2px 4px rgba(0,0,0,0.05);
@@ -76,7 +76,7 @@ $code-color: #0077b5;
 }
 
 .reveal table th {
-  background: #0077b5;
+  background: #E5484D;
   color: white;
   padding: 0.7em 1em;
 }
@@ -106,12 +106,12 @@ $code-color: #0077b5;
   content: "▸";
   position: absolute;
   left: 0;
-  color: #0077b5;
+  color: #E5484D;
 }
 
 /* Highlight box */
 .highlight-box {
-  background: #0077b5;
+  background: #E5484D;
   color: white;
   padding: 1em 1.5em;
   border-radius: 8px;

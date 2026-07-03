@@ -29,9 +29,9 @@ website:
       - text: Services
         aria-label: "Services"
         href: services.qmd
-      - text: Profitable Pricing
-        aria-label: "Profitable Pricing"
-        href: pricing.qmd
+      # - text: Profitable Pricing
+      #   aria-label: "Profitable Pricing"
+      #   href: pricing.qmd
       - text: Case Studies
         aria-label: "Case Studies"
         href: case_studies/index.qmd
@@ -49,6 +49,7 @@ format:
     pagetitle: "{{< meta title >}}"
     lightbox: true
     include-in-header:
+      - _includes/fonts.html
       - _includes/ga4-tracking.html
 
 execute:

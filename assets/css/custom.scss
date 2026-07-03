@@ -1,5 +1,21 @@
 /*-- scss:defaults --*/
-$link-color: #0077b5;
+
+// Brand accent — matches the offer slide decks (Radix red #E5484D)
+$primary:           #E5484D;
+$link-color:        #E5484D;
+$link-hover-color:  #c93c41;
+
+// Typography matching the decks: Space Grotesk (display) + Archivo (body)
+$font-family-sans-serif: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+$headings-font-family:   "Space Grotesk", system-ui, sans-serif;
+$headings-font-weight:   700;
+$headings-color:         #111111;
+$body-color:             #333333;
+
+// Keep the navbar light (like the white deck slides) with red accents,
+// rather than letting $primary paint it as a solid red bar.
+$navbar-bg:              #ffffff;
+$navbar-fg:              #1a1a1a;
 
 /*-- scss:rules --*/
 
@@ -9,7 +25,8 @@ $link-color: #0077b5;
 }
 
 .navbar-brand {
-  font-weight: 600;
+  font-family: "Space Grotesk", system-ui, sans-serif;
+  font-weight: 700;
 }
 
 .navbar-nav .nav-link {
@@ -18,11 +35,11 @@ $link-color: #0077b5;
 }
 
 .navbar-nav .nav-link:hover {
-  color: #0077b5 !important;
+  color: #E5484D !important;
 }
 
 .navbar-nav .nav-link.active {
-  color: #0077b5 !important;
-  border-bottom: 2px solid #0077b5;
+  color: #E5484D !important;
+  border-bottom: 2px solid #E5484D;
   margin-bottom: -2px;
 }
