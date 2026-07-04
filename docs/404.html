@@ -14,17 +14,25 @@
   gtag('js', new Date());
   gtag('config', 'G-191JR4FPL2');  // page_view carries the full /offers/<id>/... path
 
-  // /offers/<hash-id>/<rest> -> /services/<rest>, reporting <hash-id> to GA4.
-  // Bare /offers/<hash-id>/ -> the Services page.
+  // Everything between /offers/ and the LAST slash is the offer id (it may
+  // contain slashes); whatever follows the last slash maps onto /services/.
+  //   /offers/QWE/promo/margin-leakage.html -> id "QWE/promo", /services/margin-leakage.html
+  //   /offers/QWE/promo/                    -> id "QWE/promo", Services page
   (function () {
-    var m = location.pathname.match(/^\/offers\/([^\/]+)(\/.*)?$/);
+    var m = location.pathname.match(/^\/offers\/(.+)$/);
     if (!m) return;  // any other missing path: plain 404 below
 
     document.documentElement.setAttribute('data-redirecting', '');
 
-    var id = decodeURIComponent(m[1]);
-    var rest = m[2] || '';
-    var target = (rest && rest !== '/') ? '/services' + rest : '/services.html';
+    var remainder = m[1];
+    var cut = remainder.lastIndexOf('/');
+    var rawId = cut >= 0 ? remainder.slice(0, cut) : '';
+    var tail  = cut >= 0 ? remainder.slice(cut + 1) : remainder;
+
+    var id;
+    try { id = decodeURIComponent(rawId); } catch (e) { id = rawId; }
+    var rest = '/' + tail;
+    var target = tail ? '/services/' + tail : '/services.html';
 
     var done = false;
     function go() { if (!done) { done = true; location.replace(target); } }
