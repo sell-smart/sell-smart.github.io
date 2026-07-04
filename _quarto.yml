@@ -6,7 +6,7 @@ project:
     - google80633a22d46b507f.html
     - case_studies/*/slides.html
     - services/*.html
-    - offers/*.html
+    - 404.html
   render:
     - "**/*.qmd"
     - "!**/slides.qmd"

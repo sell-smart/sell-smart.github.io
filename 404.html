@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex">
+<title>Pavel Logačev</title>
+
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-191JR4FPL2"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-191JR4FPL2');  // page_view carries the full /offers/<id>/... path
+
+  // /offers/<hash-id>/<rest> -> /services/<rest>, reporting <hash-id> to GA4.
+  // Bare /offers/<hash-id>/ -> the Services page.
+  (function () {
+    var m = location.pathname.match(/^\/offers\/([^\/]+)(\/.*)?$/);
+    if (!m) return;  // any other missing path: plain 404 below
+
+    document.documentElement.setAttribute('data-redirecting', '');
+
+    var id = decodeURIComponent(m[1]);
+    var rest = m[2] || '';
+    var target = (rest && rest !== '/') ? '/services' + rest : '/services.html';
+
+    var done = false;
+    function go() { if (!done) { done = true; location.replace(target); } }
+
+    gtag('event', 'offer_open', {
+      offer_id: id,
+      offer_path: rest || '/',
+      transport_type: 'beacon',
+      event_callback: go,
+      event_timeout: 700
+    });
+    setTimeout(go, 700);  // don't let a blocked tracker hold the visitor hostage
+  })();
+</script>
+
+<style>
+  body {
+    font-family: "Archivo", system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+    color: #333; display: flex; align-items: center; justify-content: center;
+    min-height: 90vh; margin: 0;
+  }
+  .notfound { text-align: center; }
+  .notfound h1 { font-family: "Space Grotesk", system-ui, sans-serif; color: #111; }
+  .notfound a { color: #E5484D; }
+  [data-redirecting] .notfound { display: none; }
+</style>
+</head>
+<body>
+<div class="notfound">
+  <h1>Page not found</h1>
+  <p><a href="/">Back to the homepage</a></p>
+</div>
+</body>
+</html>
