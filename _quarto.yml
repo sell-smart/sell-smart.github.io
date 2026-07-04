@@ -5,6 +5,7 @@ project:
     - CNAME
     - google80633a22d46b507f.html
     - case_studies/*/slides.html
+    - services/*.html
     - offers/*.html
   render:
     - "**/*.qmd"
