@@ -30,6 +30,7 @@ title-block-banner: false
   border: 2px solid #E5484D;
   border-radius: 8px;
   cursor: pointer;
+  text-decoration: none;
   transition: box-shadow 0.2s, transform 0.2s;
   background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
   overflow: hidden;
@@ -72,69 +73,15 @@ title-block-banner: false
   font-size: 0.75rem;
   color: #555;
 }
-
-/* Modal styles */
-.slides-modal {
-  display: none;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: rgba(0,0,0,0.85);
-  z-index: 9999;
-  justify-content: center;
-  align-items: center;
-}
-
-.slides-modal.active {
-  display: flex;
-}
-
-.slides-modal-content {
-  width: 90%;
-  height: 85%;
-  max-width: 1200px;
-  position: relative;
-}
-
-.slides-modal iframe {
-  width: 100%;
-  height: 100%;
-  border: none;
-  border-radius: 8px;
-}
-
-.slides-modal-close {
-  position: absolute;
-  top: 10px;
-  right: 10px;
-  color: white;
-  font-size: 1.5rem;
-  cursor: pointer;
-  background: rgba(0,0,0,0.5);
-  border: none;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  z-index: 10000;
-}
-
-.slides-modal-close:hover {
-  background: rgba(0,0,0,0.8);
-}
 </style>
 
 <div class="case-study-grid">
 
 <div class="case-study-item">
-<div class="case-study-card" onclick="openSlides('coffee-chain/slides.html')">
+<a class="case-study-card" href="coffee-chain/">
 <h3>National Coffee Chain</h3>
 <p class="subtitle">Elasticity-Based Price Increases</p>
-</div>
+</a>
 <div class="tags">
 <span class="tag">Pricing</span>
 <span class="tag">Hospitality</span>
@@ -143,10 +90,10 @@ title-block-banner: false
 </div>
 
 <div class="case-study-item">
-<div class="case-study-card" onclick="openSlides('sports-retailer/slides.html')">
+<a class="case-study-card" href="sports-retailer/">
 <h3>Sports Retailer</h3>
 <p class="subtitle">Multi-Wave Price Optimization</p>
-</div>
+</a>
 <div class="tags">
 <span class="tag">Pricing</span>
 <span class="tag">Retail</span>
@@ -155,10 +102,10 @@ title-block-banner: false
 </div>
 
 <div class="case-study-item">
-<div class="case-study-card" onclick="openSlides('building-supplies-distributor/slides.html')">
+<a class="case-study-card" href="building-supplies-distributor/">
 <h3>B2B Building Supplies</h3>
 <p class="subtitle">Discount Consistency</p>
-</div>
+</a>
 <div class="tags">
 <span class="tag">Pricing</span>
 <span class="tag">B2B</span>
@@ -167,10 +114,10 @@ title-block-banner: false
 </div>
 
 <div class="case-study-item">
-<div class="case-study-card" onclick="openSlides('qsr-chain/slides.html')">
+<a class="case-study-card" href="qsr-chain/">
 <h3>Quick-Service Restaurant</h3>
 <p class="subtitle">Transaction Decline Analysis</p>
-</div>
+</a>
 <div class="tags">
 <span class="tag">Analysis</span>
 <span class="tag">Hospitality</span>
@@ -179,35 +126,3 @@ title-block-banner: false
 </div>
 
 </div>
-
-<!-- Modal for slides -->
-<div class="slides-modal" id="slidesModal">
-<div class="slides-modal-content">
-<button class="slides-modal-close" onclick="closeSlides()">×</button>
-<iframe id="slidesFrame" src=""></iframe>
-</div>
-</div>
-
-<script>
-function openSlides(url) {
-  document.getElementById('slidesFrame').src = url;
-  document.getElementById('slidesModal').classList.add('active');
-  document.body.style.overflow = 'hidden';
-}
-
-function closeSlides() {
-  document.getElementById('slidesModal').classList.remove('active');
-  document.getElementById('slidesFrame').src = '';
-  document.body.style.overflow = '';
-}
-
-// Close on escape key
-document.addEventListener('keydown', function(e) {
-  if (e.key === 'Escape') closeSlides();
-});
-
-// Close on click outside
-document.getElementById('slidesModal').addEventListener('click', function(e) {
-  if (e.target === this) closeSlides();
-});
-</script>
