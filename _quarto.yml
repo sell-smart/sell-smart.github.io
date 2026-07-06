@@ -13,14 +13,14 @@ project:
 
 website:
   title: "Pavel Logačev"
-  site-url: https://pavel.logacev.de
+  site-url: https://sell-smart.github.io
   description: "Pricing & Revenue Optimization Data Scientist"
   page-navigation: true
   back-to-top-navigation: true
   open-graph:
-    image: https://pavel.logacev.de/assets/images/pavel.png
+    image: assets/images/pavel.png
   twitter-card:
-    image: https://pavel.logacev.de/assets/images/pavel.png
+    image: assets/images/pavel.png
 
   navbar:
     right:
